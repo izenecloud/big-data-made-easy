@@ -6,12 +6,12 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 
 ## Projects
 
-- [Storage Design and Data Structures](#storage)
+- [Storage Design and Data Structures](#storage-design-and-data-structures)
 - [Distributed System](#distributed-system)
 - [Concurrency](#concurrency)
 - [Compression](#compression)
-- [System Performance And Profiling](#system-profiling)
-- [Search Engine and Information Retrieval](#search-engine-information-retrieval)
+- [System Performance and Profiling](#system-performance-and-profiling)
+- [Search Engine and Information Retrieval](#search-engine-and-information-retrieval)
 - [Large Scale Machine Learning](#large-scale-machine-learning)
 
 ###Storage Design and Data Structures
