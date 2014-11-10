@@ -1,6 +1,7 @@
 Big Data Made Easy
 ==================
-A list of frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff. Those most frequently used or well-know items are not listed here.
+A list of frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff. Those most frequently used or well-know items are not listed here, which could be referred from awesome series:
+[Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata) by [Onur Akpolat](https://github.com/onurakpolat) and [The Big-Data Ecosystem Table](https://github.com/zenkay/bigdata-ecosystem/) by [Andrea Mostosi](https://github.com/zenkay) .
 
 
 ## Projects
@@ -24,7 +25,6 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Splay Map](https://github.com/grubino/splay_map/) - STL map implemented with splay tree .
 * [WikiSort](https://github.com/BonzaiThePenguin/WikiSort/) - Fast and stable sort algorithm that uses O(1) memory. Public domain .
 * [Annoy](https://github.com/spotify/annoy/) - Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk .
-
 * [Expgram](https://github.com/tarowatanabe/expgram/) - An ngram toolkit with succinct storage .
 * [Cuckoofilter](https://github.com/efficient/cuckoofilter/) - A Bloom filter replacement for approximated set-membership queries .
 * [PackedArray](https://github.com/gpakosz/PackedArray/) - Random access array of tightly packed unsigned integers .
@@ -42,6 +42,8 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [YuNomi](https://github.com/jnory/YuNomi/) - Compressed Array Library .
 * [DACs](http://lbd.udc.es/research/DACS/) - Directly Addressable Codes (DACs) consist in a variable-length encoding scheme for integers that enables direct access to any element of the encoded sequence and obtains compact spaces .
 * [Cpi00](https://code.google.com/p/cpi00/) - The compressed permuterm index .
+* [Smbt](https://code.google.com/p/smbt/) - Succinct Multibit Tree for similarity search .
+* [Gwt](https://code.google.com/p/gwt/) - Graph-indexing wavelet tree for graph similarity search .
 * [Webgraphs](http://webgraphs.recoded.cl/) - Fast and Compact Web Graph Representations .
 * [Erika-trie ](https://code.google.com/p/erika-trie/) - Erika-trie: succinct trie library .
 * [Path_decomposed_tries](https://github.com/ot/path_decomposed_tries/) - Implementation of the data structures described in the paper "Fast Compressed Tries using Path Decomposition" .
@@ -52,7 +54,6 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [HSDS](https://github.com/hideo55/cpp-HSDS/) - Succinct Data Structure Library Collection.Includes bit-vector/wavelet-matrix/trie .
 * [Hip-hyperloglog](https://github.com/iwiwi/hip-hyperloglog/) - C++ implementation of an approximate distinct counter by HIP estimator on HyperLogLog .
 * [Gonzalo Navarro](http://www.dcc.uchile.cl/~gnavarro/publ.html/) - Publications of Gonzalo Navarro .
-
 * [Kvtx](https://github.com/kumagi/kvtx/) - Transaction over CAS see https://docs.google.com/open?id=0B04zCRiCIQGGZDcyNTEwZGQtODk4Yy00NjEwLWI1MjQtYjc3NzJhN2RlNzk0  .
 * [Fatcache](https://github.com/twitter/fatcache/) - Memcache on SSD .
 * [WiredTiger](https://github.com/wiredtiger/wiredtiger/) - WiredTiger's source tree http://source.wiredtiger.com/ .
@@ -68,15 +69,14 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [HERD](https://github.com/efficient/HERD/) - A Highly Efficient key-value system for RDMA .
 * [Cayley](https://github.com/google/cayley/) - An open-source graph database .
 * [Forestdb](https://github.com/couchbaselabs/forestdb/) - A Fast Key-Value Storage Engine Based on Hierarchical B+-Tree Trie .
+* [Mdbm](https://github.com/yahoo/mdbm/) - A very fast memory-mapped key/value store by Yahoo .
 * [Nldb](https://github.com/Nanolat/nldb/) - Nanolat Database supporting 1M transactions per second .
-
 * [SSD optimizations](http://www.nodalink.com/blog_SSD_random_io_optimization_26_01_2014.html/) - Optimizing SSDs random IOPs, noop/tpps scheduler, rotational=0, add_random=0 .
 * [Article-SSD](http://codecapsule.com/2014/02/12/coding-for-ssds-part-6-a-summary-what-every-programmer-should-know-about-solid-state-drives//) - Coding for SSDs - What every programmer should know about solid-state drives .
 * [Article-Key-Value](http://codecapsule.com/2013/05/13/implementing-a-key-value-store-part-5-hash-table-implementations/) - Implementing a Key-Value Store .
 * [Article-MVCC](http://highlyscalable.wordpress.com/2012/01/07/mvcc-transactions-key-value/) - Implementation of MVCC Transactions for Key-Value Stores .
 * [Article-SSD](http://arstechnica.com/information-technology/2012/06/inside-the-ssd-revolution-how-solid-state-disks-really-work/) - Solid-state revolution: in-depth on how SSDs really work .
 * [Dexter](https://wwwdb.inf.tu-dresden.de/research-projects/projects/dexter/) - Dexter database research group .
-
 * [Streaminer](https://github.com/mayconbordin/streaminer/) - A collection of algorithms for mining data streams http://mayconbordin.github.io/streaminer/ .
 * [Article-Art of Approximating](https://metamarkets.com/2013/histograms//) - The Art of Approximating Distributions: Histograms and Quantiles at Scale .
 * [Article-Sketch of the Day](http://research.neustar.biz/2013/09/16/sketch-of-the-day-frugal-streaming//) - Sketch of the Day: Frugal Streaming .
@@ -87,9 +87,11 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 
 ###Distributed System
 * [Pequod](https://github.com/bryankate/pequod/) - A distributed key-value cache with builtin materialized views, see "Easy Freshness with Pequod Cache Joins" .
-* [Crate](https://crate.io//) - CRATE: Your Elastic Data Store .
+* [Crate](https://crate.io/) - CRATE: Your Elastic Data Store .
+* [Elliptics](https://github.com/reverbrain/elliptics/) - Distributed hashtable storage .
 * [Mcrouter](https://github.com/facebook/mcrouter/) - Mcrouter is a memcached protocol router for scaling memcached deployments .
 * [Codis](https://github.com/wandoulabs/codis/) - Yet another fast distributed solution for Redis .
+* [zBase](https://github.com/zbase/) - A high-performance, elastic, distributed key-value store .
 * [Dynomite](https://github.com/Netflix/dynomite/) - A generic dynamo implementation for different k-v storage engines .
 * [AsterixDB](https://asterixdb.ics.uci.edu/) - Full-function BDMS (Big Data Management System) .
 * [RAMCloud](https://ramcloud.atlassian.net/wiki/display/RAM/RAMCloud/) - A new class of storage for large-scale datacenter applications. It is a key-value store that keeps all data in DRAM at all times .
@@ -99,30 +101,27 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Druid](https://github.com/metamx/druid/) - Real²time Exploratory Analytics on Large Datasets http://druid.io .
 * [Wasp](https://github.com/alibaba/wasp/) - A megastore-like system http://alibaba.github.io/wasp/ .
 * [Haeinsa](https://github.com/VCNC/haeinsa) - linearly scalable multi-row, multi-table transaction library for HBase based on Percolator .
+* [Yrmcds](https://github.com/cybozu/yrmcds/) - Memcached compatible KVS with master/slave replication. http://cybozu.github.io/yrmcds/ .
+* [3levelmemcache](https://github.com/forcedotcom/3levelmemcache/) - Memcache improvements by Data.com .
+* [Vitess](https://github.com/youtube/vitess/) - Vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services .
+* [Replicant](https://github.com/rescrv/Replicant/) - A system for maintaining replicated state machines .
+* [Skipgraph](https://github.com/kumagi/skipgraph/) - Implementation of skipgraph on messagepack-rpc .
 * [Kylin](http://www.kylin.io/) - BigQuery based on Hadoop .
-* [Tyrant](https://github.com/wandoulabs/tyrant/) - Golang job scheduler based on mesos.
 * [Cubert](https://github.com/linkedin/Cubert/) - A fast and efficient batch computation engine for complex analysis and reporting of massive datasets on Hadoop .
 * [REEF](http://www.reef-project.org/) - The Retainable Evaluator Execution Framework .
 * [Phat](https://github.com/rdadolf/phat/) - An implementation of the Chubby lock service protocol in Msgpack RPC .
 * [Hydra](https://github.com/addthis/hydra/) - A distributed data processing and storage system originally developed at AddThis .
-* [Vitess](https://github.com/youtube/vitess/) - Vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services .
-* [Cocaine](http://api.yandex.com/cocaine//) - An open-source PaaS (platform as a service) system for creating custom cloud hosting apps from Yandex .
-* [zBase](https://github.com/zbase/) - A high-performance, elastic, distributed key-value store .
-* [Chronos](http://airbnb.github.io/chronos/) - Chronos: A Replacement for Cron, see http://nerds.airbnb.com/introducing-chronos/ .
 * [Hystrix](https://github.com/Netflix/Hystrix/) - A latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable .
-* [Replicant](https://github.com/rescrv/Replicant/) - A system for maintaining replicated state machines .
-* [Skipgraph](https://github.com/kumagi/skipgraph/) - Implementation of skipgraph on messagepack-rpc .
 * [Nativetask](https://github.com/decster/nativetask/) - A high performance C++ API & runtime for Hadoop MapReduce .
-* [Yrmcds](https://github.com/cybozu/yrmcds/) - Memcached compatible KVS with master/slave replication. http://cybozu.github.io/yrmcds/ .
-* [3levelmemcache](https://github.com/forcedotcom/3levelmemcache/) - Memcache improvements by Data.com .
 * [Summingbird](https://github.com/twitter/summingbird/) - Streaming MapReduce with Scalding and Storm https://twitter.com/summingbird .
 * [Hustle](https://github.com/tspurway/hustle/) - A column oriented, embarrassingly distributed relational event database. .
+* [Chronos](http://airbnb.github.io/chronos/) - Chronos: A Replacement for Cron, see http://nerds.airbnb.com/introducing-chronos/ .
+* [Tyrant](https://github.com/wandoulabs/tyrant/) - Golang job scheduler based on mesos.
+* [Cocaine](http://api.yandex.com/cocaine//) - An open-source PaaS (platform as a service) system for creating custom cloud hosting apps from Yandex .
+* [Weave](https://github.com/zettio/weave/) - The Docker Network .
 * [Course-CS6452](http://www.cs.cornell.edu/courses/cs6452/2012sp/lectures.php/) - Datacenter Networks and Services .
 * [Article-Service Discovery](http://jasonwilder.com/blog/2014/02/04/service-discovery-in-the-cloud/) - Open-Source Service Discovery - Jason Wilder's Blog jasonwilder.com  .
-* [The Big-Data Ecosystem Table](http://bigdata.andreamostosi.name/) - The Big-Data Ecosystem Table .
 * [Article-Replication and Latency consistency tradeoff](http://dbmsmusings.blogspot.com/2011/12/replication-and-latency-consistency.html/) - Replication and the latency-consistency tradeoff  .
-
-* [Weave](https://github.com/zettio/weave/) - The Docker Network .
 
 ###Concurrency
 * [Concurrent Queue](https://github.com/cameron314/concurrentqueue/) - A fast multiple-producer, multi-consumer lock-free concurrent queue for C++11 .
