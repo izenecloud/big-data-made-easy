@@ -194,9 +194,12 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [FastPFor](https://github.com/lemire/FastPFor/) - Fast integer compression .
 * [Simdcomp](https://github.com/lemire/simdcomp/) - A simple C library for compressing lists of integers .
 * [SIMDCompressionAndIntersection](https://github.com/lemire/SIMDCompressionAndIntersection/) - A C++ library to compress and intersect sorted lists of integers using SIMD instructions .
+* [TurboPFor](https://github.com/powturbo/TurboPFor/) - Fastest Integer Compression .
 * [Wavelet](https://www.cyberagent.co.jp/recruit/techreport/report/id=8729/) - Information Retrieval based on Wavelet Tree .
 * [Shuffla](https://github.com/jaaro/Shuffla/) - Search engine using kd-tree .
 * [RoSA](https://github.com/simongog/RoSA/) - Large-Scale Pattern Search Using Reduced-Space On-Disk Suffix Arrays .
+* [Dualsorted](https://github.com/yingfeng/dualsorted/) - Dual sorted inverted index based on Wavelet Tree .
+* [Treap](https://github.com/yingfeng/treap/) - Faster and Smaller Inverted Indices with Treaps .
 * [Gigablast](https://github.com/gigablast/open-source-search-engine/) - A distributed open source search engine and spider written in C/C++ for Linux .
 * [Libface](https://github.com/duckduckgo/cpp-libface/) - Fastest auto-complete in the east .
 * [SIMD-Based-Posting-lists](https://github.com/maximecaron/SIMD-Based-Posting-lists/) - Implementation of Alexander A. Stepanov inverted Index Compression algorithms .
