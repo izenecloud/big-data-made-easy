@@ -140,6 +140,8 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Varon-t](https://github.com/redjack/varon-t/) - A C implementation of Disruptor queues http://varon-t.readthedocs.org/ .
 * [disruptor--](https://github.com/fsaintjacques/disruptor--/) - Disruptor concurency pattern in c++ .
 * [Lockfree Queue](https://github.com/krizhanovsky/NatSys-Lab/blob/master/lockfree_rb_q.cc/) -  Lock-free Condition Wait for Lock-free Multi-producer Multi-consumer Queue, see http://natsys-lab.blogspot.ru/2013/08/lock-free-condition-wait-for-lock-free.html .
+* [Ssmem](https://github.com/LPD-EPFL/ssmem/) - A simple object-based memory allocator with epoch-based garbage collection, the publication "Asynchronized Concurrency: The Secret to Scaling Concurrent Search Data Structures" .
+* [CLHT](https://github.com/LPD-EPFL/CLHT/) - A very fast and scalable (lock-based and lock-free) hash table that uses cache-line sized buckets .
 * [Comsat](http://www.paralleluniverse.co/comsat/) - Comsat lets your application enjoy the scalability of asynchronous web-frameworks, serving many thousands of concurrent long-lived connections, or issuing hundreds of web-service calls for each request, all while maintaining the simple “thread per request” model .
 * [Article-TM](http://kukuruku.co/hub/cpp/transactional-memory-history-and-development/) - Transactional Memory: History and Development .
 
