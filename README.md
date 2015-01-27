@@ -115,6 +115,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Nativetask](https://github.com/decster/nativetask/) - A high performance C++ API & runtime for Hadoop MapReduce .
 * [Summingbird](https://github.com/twitter/summingbird/) - Streaming MapReduce with Scalding and Storm https://twitter.com/summingbird .
 * [Hustle](https://github.com/tspurway/hustle/) - A column oriented, embarrassingly distributed relational event database. .
+* [Embulk](https://github.com/embulk/embulk/) - A plugin-based parallel bulk data loader that makes painful data integration works relaxed. .
 * [Chronos](http://airbnb.github.io/chronos/) - Chronos: A Replacement for Cron, see http://nerds.airbnb.com/introducing-chronos/ .
 * [Tyrant](https://github.com/wandoulabs/tyrant/) - Golang job scheduler based on mesos.
 * [Cocaine](http://api.yandex.com/cocaine//) - An open-source PaaS (platform as a service) system for creating custom cloud hosting apps from Yandex .
@@ -133,7 +134,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Libcds](http://libcds.sourceforge.net/) - A C++ template library of lock-free and fine-grained algorithms .
 * [Locksmith](https://github.com/cmccabe/lksmith/) - A library for debugging locking in C, C++, or Objective C programs .
 * [Concurrency-concepts](https://github.com/kaisellgren/Concurrency-concepts/) - A guide to concurrency, multi-threading and parallel programming concepts. Explains the differences between every concept, their advantages and disadvantages in detail .
-* [Concurrency Kit](http://concurrencykit.org/) - Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures for the research, design and implementation of high performance concurrent systems . 
+* [Concurrency Kit](http://concurrencykit.org/) - Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures for the research, design and implementation of high performance concurrent systems .
 * [Nanahan](https://github.com/kumagi/nanahan/) - An implementation of Hopscotch hashing for single thread .
 * [Scalex](https://github.com/stephentu/scalex/) - Code snippets for the workshop on concurrent data structure implementation .
 * [CBB](http://amino-cbbs.sourceforge.net/) - Provides a set of concurrent building blocks (Java & C/C++) that can be used to develop parallel/multi-threaded applications .
@@ -174,7 +175,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [mTCP](http://shader.kaist.edu/mtcp/) - A Highly Scalable User-level TCP Stack for Multicore Systems .
 * [UNetStack](https://github.com/bioothod/unetstack/) - Userspace TCP/IP stack .
 * [Ktap](https://github.com/ktap/ktap/) - A lightweight script-based dynamic tracing tool for Linux http://ktap.org .
-* [Perfbook](https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html/) - Is Parallel Programming Hard, And, If So, What Can You Do About It ? 
+* [Perfbook](https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html/) - Is Parallel Programming Hard, And, If So, What Can You Do About It ?
 * [Article-GC-Java](http://engineering.linkedin.com/garbage-collection/garbage-collection-optimization-high-throughput-and-low-latency-java-applications/) - Garbage Collection Optimization for High-Throughput and Low-Latency Java Applications | LinkedIn Engineering .
 * [Article-Memory Management](http://engineering.linkedin.com/performance/optimizing-linux-memory-management-low-latency-high-throughput-databases/) - Optimizing Linux Memory Management for Low-latency / High-throughput Databases | LinkedIn Engineering .
 * [Article-Modern Microprocessors](http://www.lighterra.com/papers/modernmicroprocessors/) - Modern Microprocessors A 90 Minute Guide! .
@@ -241,5 +242,3 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [LASSO](https://github.com/wangkuiyi/lasso/) - A parallel regression model learning system based on MRML.
 * [Jubatus](http://jubat.us/) - Distributed Online Machine Learning Framework .
 * [Vowpal_Wabbit](https://github.com/JohnLangford/vowpal_wabbit/) - A fast online learning algorithm http://hunch.net/~vw/ .
-
-
