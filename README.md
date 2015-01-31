@@ -114,8 +114,8 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Hystrix](https://github.com/Netflix/Hystrix/) - A latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable .
 * [Nativetask](https://github.com/decster/nativetask/) - A high performance C++ API & runtime for Hadoop MapReduce .
 * [Summingbird](https://github.com/twitter/summingbird/) - Streaming MapReduce with Scalding and Storm https://twitter.com/summingbird .
-* [Hustle](https://github.com/tspurway/hustle/) - A column oriented, embarrassingly distributed relational event database. .
-* [Embulk](https://github.com/embulk/embulk/) - A plugin-based parallel bulk data loader that makes painful data integration works relaxed. .
+* [Hustle](https://github.com/tspurway/hustle/) - A column oriented, embarrassingly distributed relational event database .
+* [Embulk](https://github.com/embulk/embulk/) - A plugin-based parallel bulk data loader that makes painful data integration works relaxed .
 * [Chronos](http://airbnb.github.io/chronos/) - Chronos: A Replacement for Cron, see http://nerds.airbnb.com/introducing-chronos/ .
 * [Tyrant](https://github.com/wandoulabs/tyrant/) - Golang job scheduler based on mesos.
 * [Cocaine](http://api.yandex.com/cocaine//) - An open-source PaaS (platform as a service) system for creating custom cloud hosting apps from Yandex .
@@ -193,6 +193,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 ###Search Engine and Information Retrieval
 * [SF1R](http://github.com/izenecloud/sf1r-lite) - A distributed massive data engine for enterprise/vertical search written in C++ .
 * [Partitioned_elias_fano](https://github.com/ot/partitioned_elias_fano/) - Code used for the experiments in the paper "Partitioned Elias-Fano Indexes" .
+* [Data Structures for Inverted Indexes](https://github.com/ot/ds2i/) - Optimal Space-Time Tradeoffs for Inverted Indexes .
 * [Surf](https://github.com/simongog/surf/) - SUccinct Retrieval Framework .
 * [FastPFor](https://github.com/lemire/FastPFor/) - Fast integer compression .
 * [Simdcomp](https://github.com/lemire/simdcomp/) - A simple C library for compressing lists of integers .
