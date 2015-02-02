@@ -150,6 +150,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 ###Compression
 * [Shoco](https://github.com/Ed-von-Schleck/shoco/) - A compressor for small text strings http://ed-von-schleck.github.io/shoco/ .
 * [Smaz](https://github.com/antirez/smaz/) - Small strings compression library .
+* [Zstandard](https://github.com/Cyan4973/zstd/) - Lossless compression algorithm providing both good compression ratio and speed .
 * [Url Compress](https://github.com/kazuho/url_compress/) - A static PPM-based URL compressor / decompressor .
 * [Floating-Point](http://www.cs.unc.edu/~isenburg/lcpfpv/) -  Lossless Compression of Predicted Floating-Point Values .
 
