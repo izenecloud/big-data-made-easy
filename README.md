@@ -53,7 +53,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [LibCDS](https://github.com/fclaude/libcds2/) - Compact Data Structures Library .
 * [HSDS](https://github.com/hideo55/cpp-HSDS/) - Succinct Data Structure Library Collection.Includes bit-vector/wavelet-matrix/trie .
 * [Hip-hyperloglog](https://github.com/iwiwi/hip-hyperloglog/) - C++ implementation of an approximate distinct counter by HIP estimator on HyperLogLog .
-* [Gonzalo Navarro](http://www.dcc.uchile.cl/~gnavarro/publ.html/) - Publications of Gonzalo Navarro .
+* [Gonzalo Navarro](http://www.dcc.uchile.cl/~gnavarro/publ.html) - Publications of Gonzalo Navarro .
 * [Kvtx](https://github.com/kumagi/kvtx/) - Transaction over CAS see https://docs.google.com/open?id=0B04zCRiCIQGGZDcyNTEwZGQtODk4Yy00NjEwLWI1MjQtYjc3NzJhN2RlNzk0  .
 * [Fatcache](https://github.com/twitter/fatcache/) - Memcache on SSD .
 * [WiredTiger](https://github.com/wiredtiger/wiredtiger/) - WiredTiger's source tree http://source.wiredtiger.com/ .
@@ -244,3 +244,4 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [LASSO](https://github.com/wangkuiyi/lasso/) - A parallel regression model learning system based on MRML.
 * [Jubatus](http://jubat.us/) - Distributed Online Machine Learning Framework .
 * [Vowpal_Wabbit](https://github.com/JohnLangford/vowpal_wabbit/) - A fast online learning algorithm http://hunch.net/~vw/ .
+* [DeepDist](http://deepdist.com/) - Lightning-Fast Deep Learning on Spark via parallel stochastic gradient updates(compared with MLLib) .
