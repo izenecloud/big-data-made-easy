@@ -138,6 +138,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Nanahan](https://github.com/kumagi/nanahan/) - An implementation of Hopscotch hashing for single thread .
 * [Scalex](https://github.com/stephentu/scalex/) - Code snippets for the workshop on concurrent data structure implementation .
 * [CBB](http://amino-cbbs.sourceforge.net/) - Provides a set of concurrent building blocks (Java & C/C++) that can be used to develop parallel/multi-threaded applications .
+* [Thrust](https://github.com/thrust/thrust/) - A parallel algorithms library which resembles the C++ Standard Template Library (STL) .
 * [Varon-t](https://github.com/redjack/varon-t/) - A C implementation of Disruptor queues http://varon-t.readthedocs.org/ .
 * [disruptor--](https://github.com/fsaintjacques/disruptor--/) - Disruptor concurency pattern in c++ .
 * [Lockfree Queue](https://github.com/krizhanovsky/NatSys-Lab/blob/master/lockfree_rb_q.cc/) -  Lock-free Condition Wait for Lock-free Multi-producer Multi-consumer Queue, see http://natsys-lab.blogspot.ru/2013/08/lock-free-condition-wait-for-lock-free.html .
