@@ -52,6 +52,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Marisa-trie](https://code.google.com/p/marisa-trie/) - Marisa succinct trie .
 * [LibCDS](https://github.com/fclaude/libcds2/) - Compact Data Structures Library .
 * [HSDS](https://github.com/hideo55/cpp-HSDS/) - Succinct Data Structure Library Collection.Includes bit-vector/wavelet-matrix/trie .
+* [BWTIL](https://github.com/nicolaprezza/BWTIL/) - BWT Text Indexing Library: a set of tools to work with BWT-based text indexes .
 * [Hip-hyperloglog](https://github.com/iwiwi/hip-hyperloglog/) - C++ implementation of an approximate distinct counter by HIP estimator on HyperLogLog .
 * [Gonzalo Navarro](http://www.dcc.uchile.cl/~gnavarro/publ.html) - Publications of Gonzalo Navarro .
 * [Kvtx](https://github.com/kumagi/kvtx/) - Transaction over CAS see https://docs.google.com/open?id=0B04zCRiCIQGGZDcyNTEwZGQtODk4Yy00NjEwLWI1MjQtYjc3NzJhN2RlNzk0  .
@@ -71,6 +72,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Forestdb](https://github.com/couchbaselabs/forestdb/) - A Fast Key-Value Storage Engine Based on Hierarchical B+-Tree Trie .
 * [Mdbm](https://github.com/yahoo/mdbm/) - A very fast memory-mapped key/value store by Yahoo .
 * [Nldb](https://github.com/Nanolat/nldb/) - Nanolat Database supporting 1M transactions per second .
+* [Weaver](https://github.com/dubey/weaver/) - A scalable, fast, consistent graph store http://weaver.systems .
 * [SSD optimizations](http://www.nodalink.com/blog_SSD_random_io_optimization_26_01_2014.html/) - Optimizing SSDs random IOPs, noop/tpps scheduler, rotational=0, add_random=0 .
 * [Article-SSD](http://codecapsule.com/2014/02/12/coding-for-ssds-part-6-a-summary-what-every-programmer-should-know-about-solid-state-drives//) - Coding for SSDs - What every programmer should know about solid-state drives .
 * [Article-Key-Value](http://codecapsule.com/2013/05/13/implementing-a-key-value-store-part-5-hash-table-implementations/) - Implementing a Key-Value Store .
