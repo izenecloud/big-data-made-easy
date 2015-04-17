@@ -118,7 +118,8 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Phat](https://github.com/rdadolf/phat/) - An implementation of the Chubby lock service protocol in Msgpack RPC .
 * [Hydra](https://github.com/addthis/hydra/) - A distributed data processing and storage system originally developed at AddThis .
 * [Hystrix](https://github.com/Netflix/Hystrix/) - A latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable .
-* [Nativetask](https://github.com/decster/nativetask/) - A high performance C++ API & runtime for Hadoop MapReduce .
+* [Nativetask](https://github.com/taskgraph/taskgraph/) - A high performance C++ API & runtime for Hadoop MapReduce .
+* [Taskgraph](https://github.com/decster/nativetask/) -  A fault tolerant, distributed task driven framework written in Go.
 * [Summingbird](https://github.com/twitter/summingbird/) - Streaming MapReduce with Scalding and Storm https://twitter.com/summingbird .
 * [Hustle](https://github.com/tspurway/hustle/) - A column oriented, embarrassingly distributed relational event database .
 * [Embulk](https://github.com/embulk/embulk/) - A plugin-based parallel bulk data loader that makes painful data integration works relaxed .
@@ -255,3 +256,6 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Jubatus](http://jubat.us/) - Distributed Online Machine Learning Framework .
 * [Vowpal_Wabbit](https://github.com/JohnLangford/vowpal_wabbit/) - A fast online learning algorithm http://hunch.net/~vw/ .
 * [DeepDist](http://deepdist.com/) - Lightning-Fast Deep Learning on Spark via parallel stochastic gradient updates(compared with MLLib) .
+* [DMLC](https://github.com/dmlc/) - Distributed (Deep) Machine Learning Common .
+* [BIDMach](https://github.com/BIDData/BIDMach/) -  CPU and GPU-accelerated Machine Learning Library in Scala .
+* [Spark-Multiboost](https://github.com/BaiGang/spark_multiboost/) -   An implementation of the multi-class/multi-label classifier, of which the training is carried out using AdaBoost.MH on Apache Spark .
