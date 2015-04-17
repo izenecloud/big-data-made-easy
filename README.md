@@ -226,6 +226,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [LASER](http://github.com/izenecloud/laser/) - A Scalable Response Prediction Platform For Online Advertising .
 * [Parameter Server](https://github.com/mli/parameter_server/) - A distributed machine learning framework. http://parameterserver.org .
 * [Petuum](http://petuum.github.io/) - A distributed machine learning framework implementing parameter server model .
+* [Paracel](http://paracel.io/) - Parameter server by Douban Inc .
 * [H2O](http://0xdata.com/h2o/) - Fastest in-memory platform for machine learning and predictive analytics on big data .
 * [Oryx](https://github.com/cloudera/oryx/) - Simple real-time large-scale machine learning infrastructure implementing Lambda Architecture .
 * [Admm_Allreduce](https://github.com/BaiGang/admm_allreduce/) - ADMM optimizer on Apache Hadoop with allReduce. .
