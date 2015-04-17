@@ -23,6 +23,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Graphillion](https://github.com/takemaru/graphillion/) - Fast, lightweight graphset operation library .
 * [Emphf](https://github.com/ot/emphf/) - An efficient external-memory algorithm for the construction of minimal perfect hash functions .
 * [Splay Map](https://github.com/grubino/splay_map/) - STL map implemented with splay tree .
+* [Cedar](http://www.tkl.iis.u-tokyo.ac.jp/~ynaga/cedar/) - C++ implementation of efficiently-updatable double-array trie .
 * [WikiSort](https://github.com/BonzaiThePenguin/WikiSort/) - Fast and stable sort algorithm that uses O(1) memory. Public domain .
 * [Annoy](https://github.com/spotify/annoy/) - Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk .
 * [Expgram](https://github.com/tarowatanabe/expgram/) - An ngram toolkit with succinct storage .
@@ -73,6 +74,9 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Mdbm](https://github.com/yahoo/mdbm/) - A very fast memory-mapped key/value store by Yahoo .
 * [Nldb](https://github.com/Nanolat/nldb/) - Nanolat Database supporting 1M transactions per second .
 * [Weaver](https://github.com/dubey/weaver/) - A scalable, fast, consistent graph store http://weaver.systems .
+* [FastBit_UDF](https://github.com/greenlion/FastBit_UDF/) -  MySQL UDF for creating, manipulating and querying FastBit indexes .
+* [Jump Consistent Hash](https://github.com/anachronistic/jump-consistent-hash/) -  A Go implementation of the jump consistent hash .
+* [Content Defined Chunking](https://moinakg.wordpress.com/2013/06/22/high-performance-content-defined-chunking/) -  High Performance Content Defined Chunking .
 * [SSD optimizations](http://www.nodalink.com/blog_SSD_random_io_optimization_26_01_2014.html/) - Optimizing SSDs random IOPs, noop/tpps scheduler, rotational=0, add_random=0 .
 * [Article-SSD](http://codecapsule.com/2014/02/12/coding-for-ssds-part-6-a-summary-what-every-programmer-should-know-about-solid-state-drives//) - Coding for SSDs - What every programmer should know about solid-state drives .
 * [Article-Key-Value](http://codecapsule.com/2013/05/13/implementing-a-key-value-store-part-5-hash-table-implementations/) - Implementing a Key-Value Store .
