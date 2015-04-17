@@ -203,6 +203,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Simdcomp](https://github.com/lemire/simdcomp/) - A simple C library for compressing lists of integers .
 * [SIMDCompressionAndIntersection](https://github.com/lemire/SIMDCompressionAndIntersection/) - A C++ library to compress and intersect sorted lists of integers using SIMD instructions .
 * [TurboPFor](https://github.com/powturbo/TurboPFor/) - Fastest Integer Compression .
+* [Pos-cmp](https://github.com/mpetri/pos-cmp/) - Comparison framework for positional inverted indexes and self-index supporting phrase queries .
 * [MaskedVByte](https://github.com/lemire/MaskedVByte/) - SIMD-accelerated VByte Compression, Publication "Vectorized VByte Decoding" .
 * [Wavelet](https://www.cyberagent.co.jp/recruit/techreport/report/id=8729/) - Information Retrieval based on Wavelet Tree .
 * [Shuffla](https://github.com/jaaro/Shuffla/) - Search engine using kd-tree .
