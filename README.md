@@ -38,6 +38,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Serangequerying](http://lbd.udc.es/research/serangequerying/) - Space-Efficient Structures for Range Querying .
 * [Succinct](https://github.com/ahartik/succinct/) - Experimentation with various succinct data structures. Combines previous doc-counter and wavelet-tree repos .
 * [Sdsl-lite](https://github.com/simongog/sdsl-lite/) - Succinct Data Structure Library 2.0 .
+* [Relative-FMIndex](https://github.com/jltsiren/relative-fm/) - Relative FM-index which is smaller but slower than plain FMIndex.
 * [Succinct](https://github.com/ot/succinct/) - A collection of succinct data structures .
 * [Rmq](https://github.com/leifwalsh/rmq/) - Implementations of LCA and RMQ data structures from "The LCA Problem Revisited" .
 * [YuNomi](https://github.com/jnory/YuNomi/) - Compressed Array Library .
