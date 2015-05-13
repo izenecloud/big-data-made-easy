@@ -51,6 +51,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Erika-trie ](https://code.google.com/p/erika-trie/) - Erika-trie: succinct trie library .
 * [Path_decomposed_tries](https://github.com/ot/path_decomposed_tries/) - Implementation of the data structures described in the paper "Fast Compressed Tries using Path Decomposition" .
 * [Sumire-tries](https://code.google.com/p/sumire-tries/) - A variety of succinct tries .
+* [Trie4j](https://github.com/takawitter/trie4j/) - (Succinct) trie implementation in Java .
 * [SuDS](http://www.cs.helsinki.fi/group/suds/) - Succinct Data Structures (SuDS) www.cs.helsinki.fi .
 * [Marisa-trie](https://code.google.com/p/marisa-trie/) - Marisa succinct trie .
 * [LibCDS](https://github.com/fclaude/libcds2/) - Compact Data Structures Library .
