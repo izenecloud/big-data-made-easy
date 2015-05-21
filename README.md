@@ -260,5 +260,6 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Vowpal_Wabbit](https://github.com/JohnLangford/vowpal_wabbit/) - A fast online learning algorithm http://hunch.net/~vw/ .
 * [DeepDist](http://deepdist.com/) - Lightning-Fast Deep Learning on Spark via parallel stochastic gradient updates(compared with MLLib) .
 * [DMLC](https://github.com/dmlc/) - Distributed (Deep) Machine Learning Common .
+* [SINGA](http://singa.incubator.apache.org/index.html/) - A General Distributed Deep Learning Platform .
 * [BIDMach](https://github.com/BIDData/BIDMach/) -  CPU and GPU-accelerated Machine Learning Library in Scala .
 * [Spark-Multiboost](https://github.com/BaiGang/spark_multiboost/) -   An implementation of the multi-class/multi-label classifier, of which the training is carried out using AdaBoost.MH on Apache Spark .
