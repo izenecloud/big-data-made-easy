@@ -76,6 +76,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Forestdb](https://github.com/couchbaselabs/forestdb/) - A Fast Key-Value Storage Engine Based on Hierarchical B+-Tree Trie .
 * [Mdbm](https://github.com/yahoo/mdbm/) - A very fast memory-mapped key/value store by Yahoo .
 * [Nldb](https://github.com/Nanolat/nldb/) - Nanolat Database supporting 1M transactions per second .
+* [FOEDUS](https://github.com/hkimura/foedus_code/) -  Transactional fast optimistic engine optimized for a large number of CPU cores and NVRAM storage (or fast SSD) .
 * [Weaver](https://github.com/dubey/weaver/) - A scalable, fast, consistent graph store http://weaver.systems .
 * [FastBit_UDF](https://github.com/greenlion/FastBit_UDF/) -  MySQL UDF for creating, manipulating and querying FastBit indexes .
 * [Jump Consistent Hash](https://github.com/anachronistic/jump-consistent-hash/) -  A Go implementation of the jump consistent hash .
