@@ -29,6 +29,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Expgram](https://github.com/tarowatanabe/expgram/) - An ngram toolkit with succinct storage .
 * [Cuckoofilter](https://github.com/efficient/cuckoofilter/) - A Bloom filter replacement for approximated set-membership queries .
 * [PackedArray](https://github.com/gpakosz/PackedArray/) - Random access array of tightly packed unsigned integers .
+* [FrameOfReference](https://github.com/lemire/FrameOfRefence/) - C++ library to pack and unpack vectors of integers having a small range of values using a technique called Frame of Reference .
 * [FFBF](https://github.com/efficient/ffbf/) - Feed-forward Bloom filters .
 * [Concurrent Trees](https://github.com/wichtounet/btrees/) - C++ implementation of concurrent Binary Search Trees .
 * [Concurrent B-Tree](https://github.com/malbrain/Btree-source-code/) - A working project for High-concurrency B-tree source code in C .
@@ -74,8 +75,10 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [HERD](https://github.com/efficient/HERD/) - A Highly Efficient key-value system for RDMA .
 * [Cayley](https://github.com/google/cayley/) - An open-source graph database .
 * [Forestdb](https://github.com/couchbaselabs/forestdb/) - A Fast Key-Value Storage Engine Based on Hierarchical B+-Tree Trie .
+* [STSDB](https://stsdb.codeplex.com/) -  Waterfalltree .
 * [Mdbm](https://github.com/yahoo/mdbm/) - A very fast memory-mapped key/value store by Yahoo .
 * [Nldb](https://github.com/Nanolat/nldb/) - Nanolat Database supporting 1M transactions per second .
+* [Sophia](http://sphia.org/) - Modern embeddable key-value database designed for a high load environment .
 * [FOEDUS](https://github.com/hkimura/foedus_code/) -  Transactional fast optimistic engine optimized for a large number of CPU cores and NVRAM storage (or fast SSD) .
 * [Weaver](https://github.com/dubey/weaver/) - A scalable, fast, consistent graph store http://weaver.systems .
 * [FastBit_UDF](https://github.com/greenlion/FastBit_UDF/) -  MySQL UDF for creating, manipulating and querying FastBit indexes .
@@ -115,6 +118,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [3levelmemcache](https://github.com/forcedotcom/3levelmemcache/) - Memcache improvements by Data.com .
 * [Vitess](https://github.com/youtube/vitess/) - Vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services .
 * [Replicant](https://github.com/rescrv/Replicant/) - A system for maintaining replicated state machines .
+* [CorfuDB](https://github.com/CorfuDB/CorfuDB/) - Tango: Distributed Data Structures over a Shared Log .
 * [Skipgraph](https://github.com/kumagi/skipgraph/) - Implementation of skipgraph on messagepack-rpc .
 * [Kylin](http://www.kylin.io/) - BigQuery based on Hadoop .
 * [Cubert](https://github.com/linkedin/Cubert/) - A fast and efficient batch computation engine for complex analysis and reporting of massive datasets on Hadoop .
@@ -122,7 +126,8 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Phat](https://github.com/rdadolf/phat/) - An implementation of the Chubby lock service protocol in Msgpack RPC .
 * [Hydra](https://github.com/addthis/hydra/) - A distributed data processing and storage system originally developed at AddThis .
 * [Hystrix](https://github.com/Netflix/Hystrix/) - A latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable .
-* [Phantom](https://github.com/flipkart/phantom/) - High performance proxy for accessing distributed services inspired by Twitter Finagle and Netflix Hybrix .
+* [Phantom](https://github.com/flipkart/phantom/) - High performance proxy for accessing distributed services inspired by Twitter Fingle and Netlifx Hystrix .
+* [rDSN](https://github.com/Microsoft/rDSN/) - Open framework for quickly building and managing high performance and robust distributed systems .
 * [Nativetask](https://github.com/intel-hadoop/nativetask) - A high performance C++ API & runtime for Hadoop MapReduce .
 * [Taskgraph](https://github.com/taskgraph/taskgraph/) -  A fault tolerant, distributed task driven framework written in Go.
 * [Project Eru](https://github.com/HunanTV/eru-core/) -  Docker Cloud inspired by Kubernetes/Borg.
@@ -133,6 +138,9 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Tyrant](https://github.com/wandoulabs/tyrant/) - Golang job scheduler based on mesos.
 * [Cocaine](http://api.yandex.com/cocaine//) - An open-source PaaS (platform as a service) system for creating custom cloud hosting apps from Yandex .
 * [Weave](https://github.com/zettio/weave/) - The Docker Network .
+* [ConcourseDB](https://github.com/cinchapi/concourse/) - Distributed database with ACID(2PC) .
+* [RebornDB](https://github.com/reborndb/reborn/) -  Distributed database fully compatible with redis protocol(modified from Codis) .
+* [Calvin](https://github.com/yaledb/calvin/) - Distributed database with ACID without 2PC .
 * [Course-CS6452](http://www.cs.cornell.edu/courses/cs6452/2012sp/lectures.php/) - Datacenter Networks and Services .
 * [Article-Service Discovery](http://jasonwilder.com/blog/2014/02/04/service-discovery-in-the-cloud/) - Open-Source Service Discovery - Jason Wilder's Blog jasonwilder.com  .
 * [Article-Replication and Latency consistency tradeoff](http://dbmsmusings.blogspot.com/2011/12/replication-and-latency-consistency.html/) - Replication and the latency-consistency tradeoff  .
