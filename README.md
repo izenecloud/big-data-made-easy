@@ -274,3 +274,5 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [SINGA](http://singa.incubator.apache.org/index.html/) - A General Distributed Deep Learning Platform .
 * [BIDMach](https://github.com/BIDData/BIDMach/) -  CPU and GPU-accelerated Machine Learning Library in Scala .
 * [Spark-Multiboost](https://github.com/BaiGang/spark_multiboost/) -   An implementation of the multi-class/multi-label classifier, of which the training is carried out using AdaBoost.MH on Apache Spark .
+* [Veles](https://github.com/Samsung/veles/) - Distributed platform for rapid Deep learning application development by Samsung.
+* [Chainer](https://github.com/pfnet/chainer/) -  A flexible framework of neural networks for deep learning http://chainer.org by PFINetwork.
