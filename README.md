@@ -105,24 +105,35 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Mcrouter](https://github.com/facebook/mcrouter/) - Mcrouter is a memcached protocol router for scaling memcached deployments .
 * [Codis](https://github.com/wandoulabs/codis/) - Yet another fast distributed solution for Redis .
 * [zBase](https://github.com/zbase/) - A high-performance, elastic, distributed key-value store .
+* [Sirius](https://github.com/Comcast/sirius/) - A distributed system library for managing application reference data from Comcast .
+* [Machi](https://github.com/basho/machi/) - Reliable, distributed, highly available large file store based on Chain Replication .
 * [Dynomite](https://github.com/Netflix/dynomite/) - A generic dynamo implementation for different k-v storage engines .
 * [AsterixDB](https://asterixdb.ics.uci.edu/) - Full-function BDMS (Big Data Management System) .
 * [RAMCloud](https://ramcloud.atlassian.net/wiki/display/RAM/RAMCloud/) - A new class of storage for large-scale datacenter applications. It is a key-value store that keeps all data in DRAM at all times .
+* [Geode](http://geode.incubator.apache.org/) - Open source version of Gemfire .
 * [Cockroach](https://github.com/cockroachdb/cockroach/) - A Scalable, Geo-Replicated, Transactional Datastore .
 * [Seaweed-FS](https://github.com/chrislusf/weed-fs/) - A simple and highly scalable distributed file system. There are two objectives: to store billions of files! to serve the files fast .
 * [InfiniSQL](http://www.infinisql.org/) - InfiniSQL is the database for always on, rapid growth applications that need to collect and analyze in real time--even for complex transactions .
-* [Druid](https://github.com/metamx/druid/) - Real²time Exploratory Analytics on Large Datasets http://druid.io .
 * [Wasp](https://github.com/alibaba/wasp/) - A megastore-like system http://alibaba.github.io/wasp/ .
 * [Haeinsa](https://github.com/VCNC/haeinsa) - linearly scalable multi-row, multi-table transaction library for HBase based on Percolator .
 * [Yrmcds](https://github.com/cybozu/yrmcds/) - Memcached compatible KVS with master/slave replication. http://cybozu.github.io/yrmcds/ .
 * [3levelmemcache](https://github.com/forcedotcom/3levelmemcache/) - Memcache improvements by Data.com .
 * [Vitess](https://github.com/youtube/vitess/) - Vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services .
+* [Cotton](https://github.com/apache/incubator-cotton/) - MySQL over Mesos .
 * [Replicant](https://github.com/rescrv/Replicant/) - A system for maintaining replicated state machines .
 * [CorfuDB](https://github.com/CorfuDB/CorfuDB/) - Tango: Distributed Data Structures over a Shared Log .
 * [Skipgraph](https://github.com/kumagi/skipgraph/) - Implementation of skipgraph on messagepack-rpc .
-* [Kylin](http://www.kylin.io/) - BigQuery based on Hadoop .
+* [Pinpoint](https://github.com/naver/pinpoint/) - Non-intrusive Dapper-like APM solution .
+* [CAT](https://github.com/dianping/cat/) - APM solution at Dianping Inc .
+* [Brave](https://github.com/openzipkin/brave/) - Java version of OpenZipkin .
+* [Appdash](https://github.com/sourcegraph/appdash/) - Golang version of Dapper .
+* [Druid](https://github.com/metamx/druid/) - Real²time Exploratory Analytics on Large Datasets http://druid.io .
+* [Pinot](https://github.com/linkedin/pinot/) - Something like Druid .
+* [Kylin](http://www.kylin.io/) - Data Cube based OLAP .
+* [Pulsar](https://github.com/pulsarIO) - Business level monitor and analysis .
 * [Cubert](https://github.com/linkedin/Cubert/) - A fast and efficient batch computation engine for complex analysis and reporting of massive datasets on Hadoop .
 * [REEF](http://www.reef-project.org/) - The Retainable Evaluator Execution Framework .
+* [Sparrow](https://github.com/radlab/sparrow/) - Sparrow low-latency scheduling platform .
 * [Phat](https://github.com/rdadolf/phat/) - An implementation of the Chubby lock service protocol in Msgpack RPC .
 * [Hydra](https://github.com/addthis/hydra/) - A distributed data processing and storage system originally developed at AddThis .
 * [Hystrix](https://github.com/Netflix/Hystrix/) - A latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable .
@@ -134,16 +145,27 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Summingbird](https://github.com/twitter/summingbird/) - Streaming MapReduce with Scalding and Storm https://twitter.com/summingbird .
 * [Hustle](https://github.com/tspurway/hustle/) - A column oriented, embarrassingly distributed relational event database .
 * [Embulk](https://github.com/embulk/embulk/) - A plugin-based parallel bulk data loader that makes painful data integration works relaxed .
+* [Gobblin](https://github.com/linkedin/gobblin/) - Data ingestion as a service .
 * [Chronos](http://airbnb.github.io/chronos/) - Chronos: A Replacement for Cron, see http://nerds.airbnb.com/introducing-chronos/ .
+* [Ochopod](https://github.com/autodesk-cloud/ochopod/) - Orchestration overlay over Mesos, K8S and more .
+* [Helios](https://github.com/spotify/helios/) - Docker orchestration platform of Spotify .
+* [SDC](https://github.com/joyent/sdc/) - Joyent Smart Datacenter .
+* [Apollo](https://github.com/Capgemini/Apollo/) - Mesos cluster provisioning and orchestration .
+* [Microservices-infrastructure](https://github.com/CiscoCloud/microservices-infrastructure/) - Microservice infrastructure of CiscoCloud .
+* [Vamp](https://github.com/magneticio/vamp/) - Microservices orchestration platform .
 * [Tyrant](https://github.com/wandoulabs/tyrant/) - Golang job scheduler based on mesos.
+* [Firmament](http://www.cl.cam.ac.uk/research/srg/netos/camsas/firmament/) - Cluster scheduler based on Quincy to be included into Kubernetes .
 * [Cocaine](http://api.yandex.com/cocaine//) - An open-source PaaS (platform as a service) system for creating custom cloud hosting apps from Yandex .
 * [Weave](https://github.com/zettio/weave/) - The Docker Network .
+* [QJump](http://www.cl.cam.ac.uk/research/srg/netos/qjump/) - Optimizing network latency of DataCenter  .
 * [ConcourseDB](https://github.com/cinchapi/concourse/) - Distributed database with ACID(2PC) .
 * [RebornDB](https://github.com/reborndb/reborn/) -  Distributed database fully compatible with redis protocol(modified from Codis) .
 * [Calvin](https://github.com/yaledb/calvin/) - Distributed database with ACID without 2PC .
+* [Bottledwater-pg](https://github.com/confluentinc/bottledwater-pg/) -  PostgreSQL replication made easy .
+* [MDCC](https://github.com/hiranya911/mdcc/) - Multi-DataCenter Consistency protocol .
+* [URingPaxos](https://github.com/sambenz/URingPaxos/) - High throughput atomic multicast protocol .
+* [CorfuDB](https://github.com/CorfuDB/CorfuDB/) - Distributed logging(CORFU) .
 * [Course-CS6452](http://www.cs.cornell.edu/courses/cs6452/2012sp/lectures.php/) - Datacenter Networks and Services .
-* [Article-Service Discovery](http://jasonwilder.com/blog/2014/02/04/service-discovery-in-the-cloud/) - Open-Source Service Discovery - Jason Wilder's Blog jasonwilder.com  .
-* [Article-Replication and Latency consistency tradeoff](http://dbmsmusings.blogspot.com/2011/12/replication-and-latency-consistency.html/) - Replication and the latency-consistency tradeoff  .
 
 ###Concurrency
 * [Concurrent Queue](https://github.com/cameron314/concurrentqueue/) - A fast multiple-producer, multi-consumer lock-free concurrent queue for C++11 .
@@ -166,8 +188,8 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Ssmem](https://github.com/LPD-EPFL/ssmem/) - A simple object-based memory allocator with epoch-based garbage collection, the publication "Asynchronized Concurrency: The Secret to Scaling Concurrent Search Data Structures" .
 * [CLHT](https://github.com/LPD-EPFL/CLHT/) - A very fast and scalable (lock-based and lock-free) hash table that uses cache-line sized buckets .
 * [Comsat](http://www.paralleluniverse.co/comsat/) - Comsat lets your application enjoy the scalability of asynchronous web-frameworks, serving many thousands of concurrent long-lived connections, or issuing hundreds of web-service calls for each request, all while maintaining the simple “thread per request” model .
+* [Quasar-thrift](https://github.com/pinterest/quasar-thrift/) - Quasar fiber based Thrift RPC .
 * [Article-TM](http://kukuruku.co/hub/cpp/transactional-memory-history-and-development/) - Transactional Memory: History and Development .
-
 
 ###Compression
 * [Shoco](https://github.com/Ed-von-Schleck/shoco/) - A compressor for small text strings http://ed-von-schleck.github.io/shoco/ .
@@ -196,7 +218,9 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Proxygen](https://github.com/facebook/proxygen/) - A collection of C++ HTTP libraries including an easy to use HTTP server .
 * [Yamail](https://github.com/yandex/yamail/) - YMail General Purpose Library .
 * [mTCP](http://shader.kaist.edu/mtcp/) - A Highly Scalable User-level TCP Stack for Multicore Systems .
+* [WDT](https://github.com/facebook/wdt/) - Warp speed Data Transfer (WDT) is an embeddedable library (and command line tool) aiming to transfer data between 2 systems as fast as possible over multiple TCP paths .
 * [UNetStack](https://github.com/bioothod/unetstack/) - Userspace TCP/IP stack .
+* [CamIO](http://www.cl.cam.ac.uk/research/srg/netos/camsas/camio/) - Userspace IO abstraction .
 * [Ktap](https://github.com/ktap/ktap/) - A lightweight script-based dynamic tracing tool for Linux http://ktap.org .
 * [Perfbook](https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html/) - Is Parallel Programming Hard, And, If So, What Can You Do About It ?
 * [Article-GC-Java](http://engineering.linkedin.com/garbage-collection/garbage-collection-optimization-high-throughput-and-low-latency-java-applications/) - Garbage Collection Optimization for High-Throughput and Low-Latency Java Applications | LinkedIn Engineering .
