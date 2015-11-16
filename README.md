@@ -152,13 +152,22 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [SDC](https://github.com/joyent/sdc/) - Joyent Smart Datacenter .
 * [Apollo](https://github.com/Capgemini/Apollo/) - Mesos cluster provisioning and orchestration .
 * [Microservices-infrastructure](https://github.com/CiscoCloud/microservices-infrastructure/) - Microservice infrastructure of CiscoCloud .
+* [Charmander](https://github.com/att-innovate/charmander/) - Qualsar scheduler to resolve colocation .
+* [PaasTA](https://github.com/Yelp/paasta/) - Yelp PaaS based on Mesos, Marathon, and Chronos .
+* [Fenzo](https://github.com/Netflix/Fenzo/) - Mesos binpacking scheduler library .
+* [Galaxy](https://github.com/baidu/galaxy/) - Naive scheduler for Baidu search cluster .
+* [Cook](https://github.com/twosigma/Cook/) -  Fair job scheduler on Mesos for batch workloads and Spark .
+* [Nomad](https://nomadproject.io/) - A Distributed, Highly Available, Datacenter-Aware Scheduler by Hashicorp .
 * [Vamp](https://github.com/magneticio/vamp/) - Microservices orchestration platform .
 * [Tyrant](https://github.com/wandoulabs/tyrant/) - Golang job scheduler based on mesos.
-* [Firmament](http://www.cl.cam.ac.uk/research/srg/netos/camsas/firmament/) - Cluster scheduler based on Quincy to be included into Kubernetes .
+* [Firmament](http://www.firmament.io/) - Cluster scheduler based on Quincy to be included into Kubernetes .
 * [Cocaine](http://api.yandex.com/cocaine//) - An open-source PaaS (platform as a service) system for creating custom cloud hosting apps from Yandex .
 * [Weave](https://github.com/zettio/weave/) - The Docker Network .
 * [QJump](http://www.cl.cam.ac.uk/research/srg/netos/qjump/) - Optimizing network latency of DataCenter  .
 * [ConcourseDB](https://github.com/cinchapi/concourse/) - Distributed database with ACID(2PC) .
+* [AtlasDB](https://github.com/palantir/atlasdb/) - Distributed database with ACID, Percolator like system on Cassandra .
+* [Omid](https://github.com/yahoo/omid/) - Distributed database with ACID, Percolator like system on HBase .
+* [Themis](https://github.com/XiaoMi/themis/) - Percolator on HBase .
 * [RebornDB](https://github.com/reborndb/reborn/) -  Distributed database fully compatible with redis protocol(modified from Codis) .
 * [Calvin](https://github.com/yaledb/calvin/) - Distributed database with ACID without 2PC .
 * [Bottledwater-pg](https://github.com/confluentinc/bottledwater-pg/) -  PostgreSQL replication made easy .
@@ -189,6 +198,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [CLHT](https://github.com/LPD-EPFL/CLHT/) - A very fast and scalable (lock-based and lock-free) hash table that uses cache-line sized buckets .
 * [Comsat](http://www.paralleluniverse.co/comsat/) - Comsat lets your application enjoy the scalability of asynchronous web-frameworks, serving many thousands of concurrent long-lived connections, or issuing hundreds of web-service calls for each request, all while maintaining the simple “thread per request” model .
 * [Quasar-thrift](https://github.com/pinterest/quasar-thrift/) - Quasar fiber based Thrift RPC .
+* [Seastar](http://www.seastar-project.org/) - Concurrency library in user space .
 * [Article-TM](http://kukuruku.co/hub/cpp/transactional-memory-history-and-development/) - Transactional Memory: History and Development .
 
 ###Compression
@@ -295,6 +305,8 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Vowpal_Wabbit](https://github.com/JohnLangford/vowpal_wabbit/) - A fast online learning algorithm http://hunch.net/~vw/ .
 * [DeepDist](http://deepdist.com/) - Lightning-Fast Deep Learning on Spark via parallel stochastic gradient updates(compared with MLLib) .
 * [DMLC](https://github.com/dmlc/) - Distributed (Deep) Machine Learning Common .
+* [MXNet](https://github.com/dmlc/mxnet/) - Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler .
+* [DMTK](http://www.dmtk.io/) - Distributed Machine Learning Toolkit(LightLDA) .
 * [SINGA](http://singa.incubator.apache.org/index.html/) - A General Distributed Deep Learning Platform .
 * [BIDMach](https://github.com/BIDData/BIDMach/) -  CPU and GPU-accelerated Machine Learning Library in Scala .
 * [Spark-Multiboost](https://github.com/BaiGang/spark_multiboost/) -   An implementation of the multi-class/multi-label classifier, of which the training is carried out using AdaBoost.MH on Apache Spark .
