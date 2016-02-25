@@ -104,6 +104,9 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Elliptics](https://github.com/reverbrain/elliptics/) - Distributed hashtable storage .
 * [Mcrouter](https://github.com/facebook/mcrouter/) - Mcrouter is a memcached protocol router for scaling memcached deployments .
 * [Codis](https://github.com/wandoulabs/codis/) - Yet another fast distributed solution for Redis .
+* [RebornDB](https://github.com/reborndb/reborn/) -  Distributed database fully compatible with redis protocol(modified from Codis) .
+* [Ledisdb](https://github.com/siddontang/ledisdb/) - Distributed NoSQL Proxy layer .
+* [Carrier](https://github.com/linfangrong/carrier/) - Proxy layer for distributed Redis cluster .
 * [zBase](https://github.com/zbase/) - A high-performance, elastic, distributed key-value store .
 * [Sirius](https://github.com/Comcast/sirius/) - A distributed system library for managing application reference data from Comcast .
 * [Machi](https://github.com/basho/machi/) - Reliable, distributed, highly available large file store based on Chain Replication .
@@ -112,12 +115,17 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [RAMCloud](https://ramcloud.atlassian.net/wiki/display/RAM/RAMCloud/) - A new class of storage for large-scale datacenter applications. It is a key-value store that keeps all data in DRAM at all times .
 * [Geode](http://geode.incubator.apache.org/) - Open source version of Gemfire .
 * [Cockroach](https://github.com/cockroachdb/cockroach/) - A Scalable, Geo-Replicated, Transactional Datastore .
+* [TiDB](https://github.com/pingcap/tidb/) - Distributed NewSQL database compatible with MySQL protocol  .
 * [Goshawkdb](https://github.com/goshawkdb/) - A distributed, transactional, fault-tolerant object store(CP) .
 * [Tephra](https://github.com/caskdata/tephra/) - Transactions for HBase http://tephra.io  .
 * [Treode](https://github.com/Treode/) - The DB that's replicated, sharded and transactional .
-* [AtlasDB](https://github.com/palantir/atlasdb/) - Transactional Distributed Database Layer .
+* [AtlasDB](https://github.com/palantir/atlasdb/) - Distributed database with ACID, Percolator like system on Cassandra .
 * [Themis](https://github.com/XiaoMi/themis/) - Transactions for HBase inspired by Percolator .
 * [Omid](https://github.com/yahoo/omid/) - Transactions for HBase .
+* [ConcourseDB](https://github.com/cinchapi/concourse/) - Distributed database with ACID(2PC) .
+* [Omid](https://github.com/yahoo/omid/) - Distributed database with ACID, Percolator like system on HBase .
+* [Calvin](https://github.com/yaledb/calvin/) - Distributed database with ACID without 2PC .
+* [Bottledwater-pg](https://github.com/confluentinc/bottledwater-pg/) -  PostgreSQL replication made easy .
 * [Cayley](https://github.com/google/cayley/) - An open-source graph database .
 * [Dgraph](https://github.com/dgraph-io/dgraph/) - Scalable, Distributed, Low Latency Graph Database  .
 * [Jepsen](http://jepsen.io/) - Techniques Jepsen occupies a particular niche of the correctness testing landscape .
@@ -175,16 +183,8 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Cocaine](http://api.yandex.com/cocaine//) - An open-source PaaS (platform as a service) system for creating custom cloud hosting apps from Yandex .
 * [Weave](https://github.com/zettio/weave/) - The Docker Network .
 * [QJump](http://www.cl.cam.ac.uk/research/srg/netos/qjump/) - Optimizing network latency of DataCenter  .
-* [ConcourseDB](https://github.com/cinchapi/concourse/) - Distributed database with ACID(2PC) .
-* [AtlasDB](https://github.com/palantir/atlasdb/) - Distributed database with ACID, Percolator like system on Cassandra .
-* [Omid](https://github.com/yahoo/omid/) - Distributed database with ACID, Percolator like system on HBase .
-* [Themis](https://github.com/XiaoMi/themis/) - Percolator on HBase .
-* [RebornDB](https://github.com/reborndb/reborn/) -  Distributed database fully compatible with redis protocol(modified from Codis) .
-* [Calvin](https://github.com/yaledb/calvin/) - Distributed database with ACID without 2PC .
-* [Bottledwater-pg](https://github.com/confluentinc/bottledwater-pg/) -  PostgreSQL replication made easy .
 * [MDCC](https://github.com/hiranya911/mdcc/) - Multi-DataCenter Consistency protocol .
 * [URingPaxos](https://github.com/sambenz/URingPaxos/) - High throughput atomic multicast protocol .
-* [CorfuDB](https://github.com/CorfuDB/CorfuDB/) - Distributed logging(CORFU) .
 * [Course-CS6452](http://www.cs.cornell.edu/courses/cs6452/2012sp/lectures.php/) - Datacenter Networks and Services .
 
 ###Concurrency
