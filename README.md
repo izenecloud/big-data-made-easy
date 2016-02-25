@@ -73,7 +73,6 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [HyPer](http://hyper-db.de/) - A hybrid online transactional processing (OLTP) and online analytical processing (OLAP) high-performance main memory database system that is optimized for modern hardware .
 * [NoVoHT](https://github.com/kev40293/NoVoHT/) - NoVoHT: a Lightweight Dynamic Persistent NoSQL Key/Value Store on NVRAM .
 * [HERD](https://github.com/efficient/HERD/) - A Highly Efficient key-value system for RDMA .
-* [Cayley](https://github.com/google/cayley/) - An open-source graph database .
 * [Forestdb](https://github.com/couchbaselabs/forestdb/) - A Fast Key-Value Storage Engine Based on Hierarchical B+-Tree Trie .
 * [STSDB](https://stsdb.codeplex.com/) -  Waterfalltree .
 * [Mdbm](https://github.com/yahoo/mdbm/) - A very fast memory-mapped key/value store by Yahoo .
@@ -95,6 +94,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Article-Sketch of the Day](http://research.neustar.biz/2013/09/16/sketch-of-the-day-frugal-streaming//) - Sketch of the Day: Frugal Streaming .
 * [Article-Sketch of the Day](http://research.neustar.biz/2012/07/09/sketch-of-the-day-k-minimum-values/) - Sketch of the Day: K-Minimum Values .
 * [Article-Sketch of the Day](http://research.neustar.biz/2012/08/20/k-minimum-values-sketching-error-hash-functions-and-you/) - Sketch of the Day: K-Minimum Values: Sketching Error, Hash Functions, and You .
+* [DB Redbook](http://www.redbook.io/) - Readings in Database Systems .
 
 
 
@@ -112,6 +112,15 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [RAMCloud](https://ramcloud.atlassian.net/wiki/display/RAM/RAMCloud/) - A new class of storage for large-scale datacenter applications. It is a key-value store that keeps all data in DRAM at all times .
 * [Geode](http://geode.incubator.apache.org/) - Open source version of Gemfire .
 * [Cockroach](https://github.com/cockroachdb/cockroach/) - A Scalable, Geo-Replicated, Transactional Datastore .
+* [Goshawkdb](https://github.com/goshawkdb/) - A distributed, transactional, fault-tolerant object store(CP) .
+* [Tephra](https://github.com/caskdata/tephra/) - Transactions for HBase http://tephra.io  .
+* [Treode](https://github.com/Treode/) - The DB that's replicated, sharded and transactional .
+* [AtlasDB](https://github.com/palantir/atlasdb/) - Transactional Distributed Database Layer .
+* [Themis](https://github.com/XiaoMi/themis/) - Transactions for HBase inspired by Percolator .
+* [Omid](https://github.com/yahoo/omid/) - Transactions for HBase .
+* [Cayley](https://github.com/google/cayley/) - An open-source graph database .
+* [Dgraph](https://github.com/dgraph-io/dgraph/) - Scalable, Distributed, Low Latency Graph Database  .
+* [Jepsen](http://jepsen.io/) - Techniques Jepsen occupies a particular niche of the correctness testing landscape .
 * [Seaweed-FS](https://github.com/chrislusf/weed-fs/) - A simple and highly scalable distributed file system. There are two objectives: to store billions of files! to serve the files fast .
 * [InfiniSQL](http://www.infinisql.org/) - InfiniSQL is the database for always on, rapid growth applications that need to collect and analyze in real time--even for complex transactions .
 * [Wasp](https://github.com/alibaba/wasp/) - A megastore-like system http://alibaba.github.io/wasp/ .
@@ -130,6 +139,9 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Druid](https://github.com/metamx/druid/) - Real²time Exploratory Analytics on Large Datasets http://druid.io .
 * [Pinot](https://github.com/linkedin/pinot/) - Something like Druid .
 * [Kylin](http://www.kylin.io/) - Data Cube based OLAP .
+* [Doradus](https://github.com/dell-oss/Doradus/) - OLAP based on Cassandra .
+* [Spark-druid](https://github.com/SparklineData/spark-druid-olap/) - OLAP using Spark SQL and Druid together.
+* [FiloDB](https://github.com/tuplejump/FiloDB/) - OLAP using Cassandra and Spark SQL .
 * [Pulsar](https://github.com/pulsarIO) - Business level monitor and analysis .
 * [Cubert](https://github.com/linkedin/Cubert/) - A fast and efficient batch computation engine for complex analysis and reporting of massive datasets on Hadoop .
 * [REEF](http://www.reef-project.org/) - The Retainable Evaluator Execution Framework .
@@ -140,7 +152,6 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Phantom](https://github.com/flipkart/phantom/) - High performance proxy for accessing distributed services inspired by Twitter Fingle and Netlifx Hystrix .
 * [rDSN](https://github.com/Microsoft/rDSN/) - Open framework for quickly building and managing high performance and robust distributed systems .
 * [Nativetask](https://github.com/intel-hadoop/nativetask) - A high performance C++ API & runtime for Hadoop MapReduce .
-* [Taskgraph](https://github.com/taskgraph/taskgraph/) -  A fault tolerant, distributed task driven framework written in Go.
 * [Project Eru](https://github.com/HunanTV/eru-core/) -  Docker Cloud inspired by Kubernetes/Borg.
 * [Summingbird](https://github.com/twitter/summingbird/) - Streaming MapReduce with Scalding and Storm https://twitter.com/summingbird .
 * [Hustle](https://github.com/tspurway/hustle/) - A column oriented, embarrassingly distributed relational event database .
@@ -303,6 +314,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [LASSO](https://github.com/wangkuiyi/lasso/) - A parallel regression model learning system based on MRML.
 * [Jubatus](http://jubat.us/) - Distributed Online Machine Learning Framework .
 * [Vowpal_Wabbit](https://github.com/JohnLangford/vowpal_wabbit/) - A fast online learning algorithm http://hunch.net/~vw/ .
+* [Taskgraph](https://github.com/taskgraph/taskgraph/) -  A fault tolerant, distributed task driven framework written in Go.
 * [DeepDist](http://deepdist.com/) - Lightning-Fast Deep Learning on Spark via parallel stochastic gradient updates(compared with MLLib) .
 * [DMLC](https://github.com/dmlc/) - Distributed (Deep) Machine Learning Common .
 * [MXNet](https://github.com/dmlc/mxnet/) - Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler .
@@ -312,3 +324,5 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Spark-Multiboost](https://github.com/BaiGang/spark_multiboost/) -   An implementation of the multi-class/multi-label classifier, of which the training is carried out using AdaBoost.MH on Apache Spark .
 * [Veles](https://github.com/Samsung/veles/) - Distributed platform for rapid Deep learning application development by Samsung.
 * [Chainer](https://github.com/pfnet/chainer/) -  A flexible framework of neural networks for deep learning http://chainer.org by PFINetwork.
+* [CNTK](https://github.com/Microsoft/CNTK/) - Microsoft deep learning framework .
+* [SparkNet](https://github.com/amplab/SparkNet/) -  Distributed Neural Networks for Spark .
