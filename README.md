@@ -14,7 +14,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 - [Search Engine and Information Retrieval](#search-engine-and-information-retrieval)
 - [Large Scale Machine Learning](#large-scale-machine-learning)
 
-###Storage Design and Data Structures
+### Storage Design and Data Structures
 * [Db-readings](https://github.com/rxin/db-readings/) - Readings in Databases .
 * [Bitvector](https://github.com/nicola-gigante/bitvector/) - A C++ container-like data structure for storing a vector of bits with fast appending on both sides and fast insertion in the middle, all in succinct space .
 * [BitSliceIndex](https://github.com/lemire/BitSliceIndex/) - Experiments on bit-slice indexing .
@@ -98,7 +98,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 
 
 
-###Distributed System
+### Distributed System
 * [Pequod](https://github.com/bryankate/pequod/) - A distributed key-value cache with builtin materialized views, see "Easy Freshness with Pequod Cache Joins" .
 * [Crate](https://crate.io/) - CRATE: Your Elastic Data Store .
 * [Elliptics](https://github.com/reverbrain/elliptics/) - Distributed hashtable storage .
@@ -187,7 +187,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [URingPaxos](https://github.com/sambenz/URingPaxos/) - High throughput atomic multicast protocol .
 * [Course-CS6452](http://www.cs.cornell.edu/courses/cs6452/2012sp/lectures.php/) - Datacenter Networks and Services .
 
-###Concurrency
+### Concurrency
 * [Concurrent Queue](https://github.com/cameron314/concurrentqueue/) - A fast multiple-producer, multi-consumer lock-free concurrent queue for C++11 .
 * [CAF](http://actor-framework.org/) - An Open Source Implementation of the Actor Model in C++ .
 * [TAMER](https://github.com/kohler/tamer/) - C++ extensions for readable event-driven programming .
@@ -212,7 +212,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Seastar](http://www.seastar-project.org/) - Concurrency library in user space .
 * [Article-TM](http://kukuruku.co/hub/cpp/transactional-memory-history-and-development/) - Transactional Memory: History and Development .
 
-###Compression
+### Compression
 * [Shoco](https://github.com/Ed-von-Schleck/shoco/) - A compressor for small text strings http://ed-von-schleck.github.io/shoco/ .
 * [Smaz](https://github.com/antirez/smaz/) - Small strings compression library .
 * [Zstandard](https://github.com/Cyan4973/zstd/) - Lossless compression algorithm providing both good compression ratio and speed .
@@ -220,7 +220,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Floating-Point](http://www.cs.unc.edu/~isenburg/lcpfpv/) -  Lossless Compression of Predicted Floating-Point Values .
 
 
-###System Performance And Profiling
+### System Performance And Profiling
 * [Vmmlib](http://vmml.github.io/vmmlib/) - A templatized C++ vector and matrix math library .
 * [Blaze-lib](https://code.google.com/p/blaze-lib/) - A high performance C++ math library .
 * [Light-matrix](https://github.com/lindahua/light-matrix/) - A Light-weight and Fast Template Matrix Library .
@@ -258,7 +258,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Blackhole](https://github.com/3Hren/blackhole/) - Yet another logging library. http://blackhole-logger.herokuapp.com .
 * [Handystats](https://github.com/shindo/handystats/) - C++ library for collecting user-defined in-process runtime statistics with low overhead .
 
-###Search Engine and Information Retrieval
+### Search Engine and Information Retrieval
 * [SF1R](http://github.com/izenecloud/sf1r-lite) - A distributed massive data engine for enterprise/vertical search written in C++ .
 * [Partitioned_elias_fano](https://github.com/ot/partitioned_elias_fano/) - Code used for the experiments in the paper "Partitioned Elias-Fano Indexes" .
 * [Data Structures for Inverted Indexes](https://github.com/ot/ds2i/) - Optimal Space-Time Tradeoffs for Inverted Indexes .
@@ -286,7 +286,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Argos](https://github.com/windoze/Argos/) -  A structural data search engine .
 
 
-###Large Scale Machine Learning
+### Large Scale Machine Learning
 * [LASER](http://github.com/izenecloud/laser/) - A Scalable Response Prediction Platform For Online Advertising .
 * [Parameter Server](https://github.com/mli/parameter_server/) - A distributed machine learning framework. http://parameterserver.org .
 * [Petuum](http://petuum.github.io/) - A distributed machine learning framework implementing parameter server model .
