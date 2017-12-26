@@ -1,4 +1,4 @@
-Big Data Made Easy
+AI+BigData+Cloud Made Easy
 ==================
 A list of frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff. Those most frequently used or well-know items are not listed here, which could be referred from awesome series:
 [Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata) by [Onur Akpolat](https://github.com/onurakpolat) and [The Big-Data Ecosystem Table](https://github.com/zenkay/bigdata-ecosystem/) by [Andrea Mostosi](https://github.com/zenkay) .
@@ -7,32 +7,39 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 ## Projects
 
 - [Storage Design and Data Structures](#storage-design-and-data-structures)
-- [Distributed System](#distributed-system)
+- [Distributed Infrastructure for Cloud---Database and Storage](#distributed-storage)
+- [Distributed Infrastructure for Cloud---Application](#distributed-application)
+- [Distributed Infrastructure for Cloud---A(AI)B(BigData)C(Cloud)](#distributed-abc)
 - [Concurrency](#concurrency)
-- [Compression](#compression)
 - [System Performance and Profiling](#system-performance-and-profiling)
 - [Search Engine and Information Retrieval](#search-engine-and-information-retrieval)
-- [Large Scale Machine Learning](#large-scale-machine-learning)
 
-### Storage Design and Data Structures
+
+###Storage Design and Data Structures
 * [Db-readings](https://github.com/rxin/db-readings/) - Readings in Databases .
 * [Bitvector](https://github.com/nicola-gigante/bitvector/) - A C++ container-like data structure for storing a vector of bits with fast appending on both sides and fast insertion in the middle, all in succinct space .
 * [BitSliceIndex](https://github.com/lemire/BitSliceIndex/) - Experiments on bit-slice indexing .
 * [RoaringBitmap](https://github.com/lemire/RoaringBitmap/) - Roaring Bitmap .
+* [Pilosa](https://github.com/pilosa/pilosa/) - High performance OLAP based on roaring bitmap .
 * [Cpp-btree](https://code.google.com/p/cpp-btree/) - C++ in-memory containers based on a B-tree data structure.
 * [Graphillion](https://github.com/takemaru/graphillion/) - Fast, lightweight graphset operation library .
 * [Emphf](https://github.com/ot/emphf/) - An efficient external-memory algorithm for the construction of minimal perfect hash functions .
+* [Skipgraph](https://github.com/kumagi/skipgraph/) - Implementation of skipgraph on messagepack-rpc .
 * [Splay Map](https://github.com/grubino/splay_map/) - STL map implemented with splay tree .
 * [Cedar](http://www.tkl.iis.u-tokyo.ac.jp/~ynaga/cedar/) - C++ implementation of efficiently-updatable double-array trie .
 * [WikiSort](https://github.com/BonzaiThePenguin/WikiSort/) - Fast and stable sort algorithm that uses O(1) memory. Public domain .
 * [Annoy](https://github.com/spotify/annoy/) - Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk .
 * [Expgram](https://github.com/tarowatanabe/expgram/) - An ngram toolkit with succinct storage .
 * [Cuckoofilter](https://github.com/efficient/cuckoofilter/) - A Bloom filter replacement for approximated set-membership queries .
+* [DCF](https://github.com/CGCL-codes/DCF/) - Dynamic Cuckoo Filter .
 * [PackedArray](https://github.com/gpakosz/PackedArray/) - Random access array of tightly packed unsigned integers .
 * [FrameOfReference](https://github.com/lemire/FrameOfRefence/) - C++ library to pack and unpack vectors of integers having a small range of values using a technique called Frame of Reference .
 * [FFBF](https://github.com/efficient/ffbf/) - Feed-forward Bloom filters .
 * [Concurrent Trees](https://github.com/wichtounet/btrees/) - C++ implementation of concurrent Binary Search Trees .
 * [Concurrent B-Tree](https://github.com/malbrain/Btree-source-code/) - A working project for High-concurrency B-tree source code in C .
+* [Palmtree](https://github.com/runshenzhu/palmtree/) - An implementation of Intel's concurrent B+Tree (Palm Tree) .
+* [BwTree](https://github.com/wangziqi2013/BwTree/) -  An open sourced implementation of Bw-Tree in SQL Server Hekaton .
+* [W-TinyLFU](https://github.com/mandreyel/w-tinylfu/) - C++11 header-only implementation for Window-TinyLFU Cache .
 * [Block-graph](https://github.com/choobin/block-graph/) - A succinct implementation of a block-graph data structure .
 * [RePair-WaveletTree-Graph](https://github.com/nilehmann/RePair-WaveletTree-Graph/) - Graph Implementation with repair bitmap compressed WaveletTree .
 * [RLZ](https://github.com/skuruppu/RLZ/) - Contains the RLZ compression and self-index source code .
@@ -42,6 +49,8 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Relative-FMIndex](https://github.com/jltsiren/relative-fm/) - Relative FM-index which is smaller but slower than plain FMIndex.
 * [GCSA](https://github.com/jltsiren/gcsa2/) - Generalized Compressed Suffix Array.
 * [Succinct](https://github.com/ot/succinct/) - A collection of succinct data structures .
+* [DYNAMIC](https://github.com/xxsds/DYNAMIC/) - Dynamic succinct/compressed data structures .
+* [DPT](https://github.com/kurpicz/dpt/) - Distributed Patricia Trie .
 * [Rmq](https://github.com/leifwalsh/rmq/) - Implementations of LCA and RMQ data structures from "The LCA Problem Revisited" .
 * [YuNomi](https://github.com/jnory/YuNomi/) - Compressed Array Library .
 * [DACs](http://lbd.udc.es/research/DACS/) - Directly Addressable Codes (DACs) consist in a variable-length encoding scheme for integers that enables direct access to any element of the encoded sequence and obtains compact spaces .
@@ -56,30 +65,24 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [SuDS](http://www.cs.helsinki.fi/group/suds/) - Succinct Data Structures (SuDS) www.cs.helsinki.fi .
 * [Marisa-trie](https://code.google.com/p/marisa-trie/) - Marisa succinct trie .
 * [LibCDS](https://github.com/fclaude/libcds2/) - Compact Data Structures Library .
-* [HSDS](https://github.com/hideo55/cpp-HSDS/) - Succinct Data Structure Library Collection.Includes bit-vector/wavelet-matrix/trie .
+* [HSDS](https://github.com/hideo55/cpp-HSDS/) - Succinct Data Structure Library Collection including bit-vector/wavelet-matrix/trie .
 * [BWTIL](https://github.com/nicolaprezza/BWTIL/) - BWT Text Indexing Library: a set of tools to work with BWT-based text indexes .
-* [Hip-hyperloglog](https://github.com/iwiwi/hip-hyperloglog/) - C++ implementation of an approximate distinct counter by HIP estimator on HyperLogLog .
+* [Bwt-Merge](https://github.com/jltsiren/bwt-merge/) - A tool for merging large BWTs .
+* [PWT](https://github.com/kurpicz/pwm/) - Parallel Wavelet Tree and Wavelet Matrix Construction .
+* [PSAC](https://github.com/patflick/psac/) - Parallel Suffix Array, LCP Array, and Suffix Tree Construction .
+* [R-Index](https://github.com/nicolaprezza/r-index/) - Optimal space run-length Burrows-Wheeler transform full-text index  .
+* [Fbcsa](https://github.com/mranisz/fbcsa/) - Fixed Block based Compact Suffix Array  .
+* [Quantile-Index](https://github.com/kit-susi/quantile-index/) - Code for "The Quantile Index -- Succinct Self-Index for Top-k Document Retrieval" .
 * [Gonzalo Navarro](http://www.dcc.uchile.cl/~gnavarro/publ.html) - Publications of Gonzalo Navarro .
 * [Kvtx](https://github.com/kumagi/kvtx/) - Transaction over CAS see https://docs.google.com/open?id=0B04zCRiCIQGGZDcyNTEwZGQtODk4Yy00NjEwLWI1MjQtYjc3NzJhN2RlNzk0  .
-* [Fatcache](https://github.com/twitter/fatcache/) - Memcache on SSD .
-* [WiredTiger](https://github.com/wiredtiger/wiredtiger/) - WiredTiger's source tree http://source.wiredtiger.com/ .
-* [FD-Tree](http://pages.cs.wisc.edu/~yinan/fdtree.html/) - FD-Tree: a Tree Index on Solid State Drives .
-* [Silo](https://github.com/stephentu/silo/) - Multicore in-memory storage engine .
 * [MemC3](https://github.com/efficient/memc3/) - An in-memory key-value cache based on concurrent cuckoo hashing.
 * [Libart](https://github.com/armon/libart/) - Adaptive Radix Trees implemented in C .
 * [Masstree](https://github.com/kohler/masstree-beta/) - Masstree, a fast, multi-core key-value store .
-* [NVMKV](https://github.com/opennvm/nvmkv/) - NVM key-value store API lIbrary repository. http://opennvm.github.io/nvmkv-documents/ .
-* [HYRISE](https://github.com/hyrise/hyrise/) - In-Memory Hybrid Storage Engine .
 * [HyPer](http://hyper-db.de/) - A hybrid online transactional processing (OLTP) and online analytical processing (OLAP) high-performance main memory database system that is optimized for modern hardware .
-* [NoVoHT](https://github.com/kev40293/NoVoHT/) - NoVoHT: a Lightweight Dynamic Persistent NoSQL Key/Value Store on NVRAM .
 * [HERD](https://github.com/efficient/HERD/) - A Highly Efficient key-value system for RDMA .
-* [Forestdb](https://github.com/couchbaselabs/forestdb/) - A Fast Key-Value Storage Engine Based on Hierarchical B+-Tree Trie .
-* [STSDB](https://stsdb.codeplex.com/) -  Waterfalltree .
-* [Mdbm](https://github.com/yahoo/mdbm/) - A very fast memory-mapped key/value store by Yahoo .
 * [Nldb](https://github.com/Nanolat/nldb/) - Nanolat Database supporting 1M transactions per second .
 * [Sophia](http://sphia.org/) - Modern embeddable key-value database designed for a high load environment .
 * [FOEDUS](https://github.com/hkimura/foedus_code/) -  Transactional fast optimistic engine optimized for a large number of CPU cores and NVRAM storage (or fast SSD) .
-* [Weaver](https://github.com/dubey/weaver/) - A scalable, fast, consistent graph store http://weaver.systems .
 * [FastBit_UDF](https://github.com/greenlion/FastBit_UDF/) -  MySQL UDF for creating, manipulating and querying FastBit indexes .
 * [Jump Consistent Hash](https://github.com/anachronistic/jump-consistent-hash/) -  A Go implementation of the jump consistent hash .
 * [Content Defined Chunking](https://moinakg.wordpress.com/2013/06/22/high-performance-content-defined-chunking/) -  High Performance Content Defined Chunking .
@@ -88,106 +91,77 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Article-Key-Value](http://codecapsule.com/2013/05/13/implementing-a-key-value-store-part-5-hash-table-implementations/) - Implementing a Key-Value Store .
 * [Article-MVCC](http://highlyscalable.wordpress.com/2012/01/07/mvcc-transactions-key-value/) - Implementation of MVCC Transactions for Key-Value Stores .
 * [Article-SSD](http://arstechnica.com/information-technology/2012/06/inside-the-ssd-revolution-how-solid-state-disks-really-work/) - Solid-state revolution: in-depth on how SSDs really work .
-* [Dexter](https://wwwdb.inf.tu-dresden.de/research-projects/projects/dexter/) - Dexter database research group .
-* [Streaminer](https://github.com/mayconbordin/streaminer/) - A collection of algorithms for mining data streams http://mayconbordin.github.io/streaminer/ .
-* [Article-Art of Approximating](https://metamarkets.com/2013/histograms//) - The Art of Approximating Distributions: Histograms and Quantiles at Scale .
-* [Article-Sketch of the Day](http://research.neustar.biz/2013/09/16/sketch-of-the-day-frugal-streaming//) - Sketch of the Day: Frugal Streaming .
-* [Article-Sketch of the Day](http://research.neustar.biz/2012/07/09/sketch-of-the-day-k-minimum-values/) - Sketch of the Day: K-Minimum Values .
-* [Article-Sketch of the Day](http://research.neustar.biz/2012/08/20/k-minimum-values-sketching-error-hash-functions-and-you/) - Sketch of the Day: K-Minimum Values: Sketching Error, Hash Functions, and You .
 * [DB Redbook](http://www.redbook.io/) - Readings in Database Systems .
 
 
 
-### Distributed System
-* [Pequod](https://github.com/bryankate/pequod/) - A distributed key-value cache with builtin materialized views, see "Easy Freshness with Pequod Cache Joins" .
-* [Crate](https://crate.io/) - CRATE: Your Elastic Data Store .
-* [Elliptics](https://github.com/reverbrain/elliptics/) - Distributed hashtable storage .
-* [Mcrouter](https://github.com/facebook/mcrouter/) - Mcrouter is a memcached protocol router for scaling memcached deployments .
-* [Codis](https://github.com/wandoulabs/codis/) - Yet another fast distributed solution for Redis .
-* [RebornDB](https://github.com/reborndb/reborn/) -  Distributed database fully compatible with redis protocol(modified from Codis) .
-* [Ledisdb](https://github.com/siddontang/ledisdb/) - Distributed NoSQL Proxy layer .
-* [Carrier](https://github.com/linfangrong/carrier/) - Proxy layer for distributed Redis cluster .
-* [zBase](https://github.com/zbase/) - A high-performance, elastic, distributed key-value store .
-* [Sirius](https://github.com/Comcast/sirius/) - A distributed system library for managing application reference data from Comcast .
-* [Machi](https://github.com/basho/machi/) - Reliable, distributed, highly available large file store based on Chain Replication .
-* [Dynomite](https://github.com/Netflix/dynomite/) - A generic dynamo implementation for different k-v storage engines .
-* [AsterixDB](https://asterixdb.ics.uci.edu/) - Full-function BDMS (Big Data Management System) .
-* [RAMCloud](https://ramcloud.atlassian.net/wiki/display/RAM/RAMCloud/) - A new class of storage for large-scale datacenter applications. It is a key-value store that keeps all data in DRAM at all times .
-* [Geode](http://geode.incubator.apache.org/) - Open source version of Gemfire .
+###Distributed Infrastructure for Cloud---Database and Storage
 * [Cockroach](https://github.com/cockroachdb/cockroach/) - A Scalable, Geo-Replicated, Transactional Datastore .
 * [TiDB](https://github.com/pingcap/tidb/) - Distributed NewSQL database compatible with MySQL protocol  .
-* [Goshawkdb](https://github.com/goshawkdb/) - A distributed, transactional, fault-tolerant object store(CP) .
-* [Tephra](https://github.com/caskdata/tephra/) - Transactions for HBase http://tephra.io  .
-* [Treode](https://github.com/Treode/) - The DB that's replicated, sharded and transactional .
-* [AtlasDB](https://github.com/palantir/atlasdb/) - Distributed database with ACID, Percolator like system on Cassandra .
-* [Themis](https://github.com/XiaoMi/themis/) - Transactions for HBase inspired by Percolator .
-* [Omid](https://github.com/yahoo/omid/) - Transactions for HBase .
-* [ConcourseDB](https://github.com/cinchapi/concourse/) - Distributed database with ACID(2PC) .
-* [Omid](https://github.com/yahoo/omid/) - Distributed database with ACID, Percolator like system on HBase .
-* [Calvin](https://github.com/yaledb/calvin/) - Distributed database with ACID without 2PC .
-* [Bottledwater-pg](https://github.com/confluentinc/bottledwater-pg/) -  PostgreSQL replication made easy .
-* [Cayley](https://github.com/google/cayley/) - An open-source graph database .
-* [Dgraph](https://github.com/dgraph-io/dgraph/) - Scalable, Distributed, Low Latency Graph Database  .
+* [ElastiCell](https://github.com/deepfabric/elasticell) - Cloud native key-value store with strong consistency and reliability .
+* [Yugabyte](https://github.com/yugabyte/yugabyte-db) - Cloud native database store with strong consistency and reliability .
+* [FBase](https://github.com/tiglabs/fbase) - Cloud native database store with strong consistency and reliability by JD.
+* [Paxosstore](https://github.com/Tencent/paxosstore) - Cloud native key value store with strong consistency and reliability by WeChat.
+* [Phxqueue](https://github.com/Tencent/phxqueue) - A high-availability, high-throughput and highly reliable distributed queue based on the Paxos algorithm.
+* [Youzan-nsq](https://github.com/youzan/nsq) - Youzan's modification of nsq to provide cloud native capability from reliability to auto rebalancing.
+* [Baidu-Elasticsearch](https://github.com/baidu/Elasticsearch) - Baidu's modification of elasticsearch to provide strong data consistency and full SQL.
+* [ClickHouse](https://github.com/yandex/ClickHouse) - Yandex's distributed column store OLAP.
+* [Palo](https://github.com/baidu/palo) - Baidu's distributed OLAP based on Google's Mesa paper.
+* [MapD](https://github.com/mapd/mapd-core) - MapD OLAP based on GPU.
+* [ContainerFS](https://github.com/tiglabs/containerfs) - Cloud native distributed filesystem for Kubernetes.
+* [OpenEBS](https://github.com/openebs/openebs) - Cloud native filesystem for Kubernetes(non-distributed ).
+* [Seaweed-FS](https://github.com/chrislusf/weed-fs/) - Distributed filesystem for small blob files.
+* [Ambry](https://github.com/linkedin/ambry/) - Distributed filesystem for small and large blob files.
+* [DistributedLog](https://github.com/twitter/distributedlog/) - High performance replicated log service.
 * [Jepsen](http://jepsen.io/) - Techniques Jepsen occupies a particular niche of the correctness testing landscape .
-* [Seaweed-FS](https://github.com/chrislusf/weed-fs/) - A simple and highly scalable distributed file system. There are two objectives: to store billions of files! to serve the files fast .
-* [InfiniSQL](http://www.infinisql.org/) - InfiniSQL is the database for always on, rapid growth applications that need to collect and analyze in real time--even for complex transactions .
-* [Wasp](https://github.com/alibaba/wasp/) - A megastore-like system http://alibaba.github.io/wasp/ .
-* [Haeinsa](https://github.com/VCNC/haeinsa) - linearly scalable multi-row, multi-table transaction library for HBase based on Percolator .
-* [Yrmcds](https://github.com/cybozu/yrmcds/) - Memcached compatible KVS with master/slave replication. http://cybozu.github.io/yrmcds/ .
-* [3levelmemcache](https://github.com/forcedotcom/3levelmemcache/) - Memcache improvements by Data.com .
-* [Vitess](https://github.com/youtube/vitess/) - Vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services .
-* [Cotton](https://github.com/apache/incubator-cotton/) - MySQL over Mesos .
-* [Replicant](https://github.com/rescrv/Replicant/) - A system for maintaining replicated state machines .
-* [CorfuDB](https://github.com/CorfuDB/CorfuDB/) - Tango: Distributed Data Structures over a Shared Log .
-* [Skipgraph](https://github.com/kumagi/skipgraph/) - Implementation of skipgraph on messagepack-rpc .
-* [Pinpoint](https://github.com/naver/pinpoint/) - Non-intrusive Dapper-like APM solution .
-* [CAT](https://github.com/dianping/cat/) - APM solution at Dianping Inc .
-* [Brave](https://github.com/openzipkin/brave/) - Java version of OpenZipkin .
-* [Appdash](https://github.com/sourcegraph/appdash/) - Golang version of Dapper .
-* [Druid](https://github.com/metamx/druid/) - Real²time Exploratory Analytics on Large Datasets http://druid.io .
-* [Pinot](https://github.com/linkedin/pinot/) - Something like Druid .
-* [Kylin](http://www.kylin.io/) - Data Cube based OLAP .
-* [Doradus](https://github.com/dell-oss/Doradus/) - OLAP based on Cassandra .
-* [Spark-druid](https://github.com/SparklineData/spark-druid-olap/) - OLAP using Spark SQL and Druid together.
-* [FiloDB](https://github.com/tuplejump/FiloDB/) - OLAP using Cassandra and Spark SQL .
-* [Pulsar](https://github.com/pulsarIO) - Business level monitor and analysis .
-* [Cubert](https://github.com/linkedin/Cubert/) - A fast and efficient batch computation engine for complex analysis and reporting of massive datasets on Hadoop .
-* [REEF](http://www.reef-project.org/) - The Retainable Evaluator Execution Framework .
-* [Sparrow](https://github.com/radlab/sparrow/) - Sparrow low-latency scheduling platform .
+* [Namazu](https://github.com/osrg/namazu/) - Programmable fuzzy scheduler for testing distributed system .
+* [GPaxos](https://github.com/lichuang/gpaxos) - Golang Paxos implementation based on Phxpaxos .
+* [Consensus-Yaraft](https://github.com/neverchanje/consensus-yaraft) - C++ Raft implementation based on Etcd's golang raft .
+* [NOPaxos](https://github.com/UWSysLab/NOPaxos) - Network-Ordered Paxos .
+* [TAPIR](https://github.com/UWSysLab/tapir) - Building Consistent Transactions with Inconsistent Replication .
 * [Phat](https://github.com/rdadolf/phat/) - An implementation of the Chubby lock service protocol in Msgpack RPC .
 * [Hydra](https://github.com/addthis/hydra/) - A distributed data processing and storage system originally developed at AddThis .
-* [Hystrix](https://github.com/Netflix/Hystrix/) - A latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable .
-* [Phantom](https://github.com/flipkart/phantom/) - High performance proxy for accessing distributed services inspired by Twitter Fingle and Netlifx Hystrix .
-* [rDSN](https://github.com/Microsoft/rDSN/) - Open framework for quickly building and managing high performance and robust distributed systems .
-* [Nativetask](https://github.com/intel-hadoop/nativetask) - A high performance C++ API & runtime for Hadoop MapReduce .
-* [Project Eru](https://github.com/HunanTV/eru-core/) -  Docker Cloud inspired by Kubernetes/Borg.
 * [Summingbird](https://github.com/twitter/summingbird/) - Streaming MapReduce with Scalding and Storm https://twitter.com/summingbird .
 * [Hustle](https://github.com/tspurway/hustle/) - A column oriented, embarrassingly distributed relational event database .
-* [Embulk](https://github.com/embulk/embulk/) - A plugin-based parallel bulk data loader that makes painful data integration works relaxed .
-* [Gobblin](https://github.com/linkedin/gobblin/) - Data ingestion as a service .
-* [Chronos](http://airbnb.github.io/chronos/) - Chronos: A Replacement for Cron, see http://nerds.airbnb.com/introducing-chronos/ .
-* [Ochopod](https://github.com/autodesk-cloud/ochopod/) - Orchestration overlay over Mesos, K8S and more .
-* [Helios](https://github.com/spotify/helios/) - Docker orchestration platform of Spotify .
-* [SDC](https://github.com/joyent/sdc/) - Joyent Smart Datacenter .
-* [Apollo](https://github.com/Capgemini/Apollo/) - Mesos cluster provisioning and orchestration .
-* [Microservices-infrastructure](https://github.com/CiscoCloud/microservices-infrastructure/) - Microservice infrastructure of CiscoCloud .
-* [Charmander](https://github.com/att-innovate/charmander/) - Qualsar scheduler to resolve colocation .
-* [PaasTA](https://github.com/Yelp/paasta/) - Yelp PaaS based on Mesos, Marathon, and Chronos .
-* [Fenzo](https://github.com/Netflix/Fenzo/) - Mesos binpacking scheduler library .
-* [Galaxy](https://github.com/baidu/galaxy/) - Naive scheduler for Baidu search cluster .
-* [Cook](https://github.com/twosigma/Cook/) -  Fair job scheduler on Mesos for batch workloads and Spark .
-* [Nomad](https://nomadproject.io/) - A Distributed, Highly Available, Datacenter-Aware Scheduler by Hashicorp .
-* [Vamp](https://github.com/magneticio/vamp/) - Microservices orchestration platform .
-* [Tyrant](https://github.com/wandoulabs/tyrant/) - Golang job scheduler based on mesos.
-* [Firmament](http://www.firmament.io/) - Cluster scheduler based on Quincy to be included into Kubernetes .
-* [Cocaine](http://api.yandex.com/cocaine//) - An open-source PaaS (platform as a service) system for creating custom cloud hosting apps from Yandex .
-* [Weave](https://github.com/zettio/weave/) - The Docker Network .
-* [QJump](http://www.cl.cam.ac.uk/research/srg/netos/qjump/) - Optimizing network latency of DataCenter  .
 * [MDCC](https://github.com/hiranya911/mdcc/) - Multi-DataCenter Consistency protocol .
 * [URingPaxos](https://github.com/sambenz/URingPaxos/) - High throughput atomic multicast protocol .
 * [Course-CS6452](http://www.cs.cornell.edu/courses/cs6452/2012sp/lectures.php/) - Datacenter Networks and Services .
 
-### Concurrency
+###Distributed Infrastructure for Cloud---Application
+* [Pinpoint](https://github.com/naver/pinpoint/) - Non-intrusive Dapper-like APM solution .
+* [CAT](https://github.com/dianping/cat/) - APM solution at Dianping Inc .
+* [Brave](https://github.com/openzipkin/brave/) - Java version of OpenZipkin .
+* [Appdash](https://github.com/sourcegraph/appdash/) - Golang version of Dapper .
+* [Jaeger](https://github.com/jaegertracing/jaeger/) - Golang version of Dapper in Uber.
+* [Cadence](https://github.com/uber/cadence/) - Microservice workflow orchestrator .
+* [Zeebe](https://zeebe.io/) - Microservice workflow orchestrator .
+* [F-Stack](https://github.com/F-Stack/f-stack/) -  Network framework with high performance based on DPDK .
+* [DPVS](https://github.com/iqiyi/dpvs/) -  High performance Layer-4 load balancer based on DPDK .
+
+
+###Distributed Infrastructure for Cloud---A(AI)B(BigData)C(Cloud)
+* [Galaxy](https://github.com/baidu/galaxy/) - Naive scheduler for Baidu search cluster .
+* [Cook](https://github.com/twosigma/Cook/) -  Fair job scheduler on Mesos for batch workloads and Spark .
+* [Kube-arbitrator](https://github.com/kubernetes-incubator/kube-arbitrator/) - Cluster colocation scheduler for Kubernetes .
+* [BigFlow](https://github.com/baidu/bigflow/) - Baidu dataflow operator .
+* [Pulsar](https://github.com/pulsarIO) - Business level monitor and analysis .
+* [Cubert](https://github.com/linkedin/Cubert/) - A fast and efficient batch computation engine for complex analysis and reporting of massive datasets on Hadoop .
+* [Embulk](https://github.com/embulk/embulk/) - A plugin-based parallel bulk data loader that makes painful data integration works relaxed .
+* [Gobblin](https://github.com/linkedin/gobblin/) - Data ingestion as a service .
+* [Magpie](https://github.com/rootsongjc/magpie/) - Deploying and managing a Hadoop Yarn cluster with Docker Swarm .
+* [Horovod](https://github.com/uber/horovod/) - Uber's modification of TensorFlow to provide RingReduce based on MPI.
+* [Angel](https://github.com/Tencent/angel/) - Tencent's parameter server infrastructure to support machine learning.
+* [Ytk-Learn](https://github.com/yuantiku/ytk-learn/) - Yuantiku's distributed machine learning platform.
+* [Libble](https://github.com/LIBBLE/LIBBLE-PS/) - LIBBLE from NJU to provide faster convergence than SGD.
+* [Gloo](https://github.com/facebookincubator/gloo/) - Facebook's communications library with various primitives for multi-machine training.
+* [xLearn](https://github.com/aksnzhy/xlearn/) -  High Performance, Easy-to-use, and Scalable Machine Learning Package (C++, Python, R).
+* [LASER](http://github.com/izenecloud/laser/) - A Scalable Response Prediction Platform For Online Advertising .
+* [Hivemall](https://github.com/myui/hivemall/) - Scalable machine learning library for Hive/Hadoop .
+* [Ml-ease](https://github.com/linkedin/ml-ease/) - ADMM based large scale logistic regression .
+* [Jubatus](http://jubat.us/) - Distributed Online Machine Learning Framework .
+
+
+###Concurrency
 * [Concurrent Queue](https://github.com/cameron314/concurrentqueue/) - A fast multiple-producer, multi-consumer lock-free concurrent queue for C++11 .
 * [CAF](http://actor-framework.org/) - An Open Source Implementation of the Actor Model in C++ .
 * [TAMER](https://github.com/kohler/tamer/) - C++ extensions for readable event-driven programming .
@@ -203,7 +177,6 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [CBB](http://amino-cbbs.sourceforge.net/) - Provides a set of concurrent building blocks (Java & C/C++) that can be used to develop parallel/multi-threaded applications .
 * [Thrust](https://github.com/thrust/thrust/) - A parallel algorithms library which resembles the C++ Standard Template Library (STL) .
 * [Varon-t](https://github.com/redjack/varon-t/) - A C implementation of Disruptor queues http://varon-t.readthedocs.org/ .
-* [disruptor--](https://github.com/fsaintjacques/disruptor--/) - Disruptor concurency pattern in c++ .
 * [Lockfree Queue](https://github.com/krizhanovsky/NatSys-Lab/blob/master/lockfree_rb_q.cc/) -  Lock-free Condition Wait for Lock-free Multi-producer Multi-consumer Queue, see http://natsys-lab.blogspot.ru/2013/08/lock-free-condition-wait-for-lock-free.html .
 * [Ssmem](https://github.com/LPD-EPFL/ssmem/) - A simple object-based memory allocator with epoch-based garbage collection, the publication "Asynchronized Concurrency: The Secret to Scaling Concurrent Search Data Structures" .
 * [CLHT](https://github.com/LPD-EPFL/CLHT/) - A very fast and scalable (lock-based and lock-free) hash table that uses cache-line sized buckets .
@@ -212,15 +185,8 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Seastar](http://www.seastar-project.org/) - Concurrency library in user space .
 * [Article-TM](http://kukuruku.co/hub/cpp/transactional-memory-history-and-development/) - Transactional Memory: History and Development .
 
-### Compression
-* [Shoco](https://github.com/Ed-von-Schleck/shoco/) - A compressor for small text strings http://ed-von-schleck.github.io/shoco/ .
-* [Smaz](https://github.com/antirez/smaz/) - Small strings compression library .
-* [Zstandard](https://github.com/Cyan4973/zstd/) - Lossless compression algorithm providing both good compression ratio and speed .
-* [Url Compress](https://github.com/kazuho/url_compress/) - A static PPM-based URL compressor / decompressor .
-* [Floating-Point](http://www.cs.unc.edu/~isenburg/lcpfpv/) -  Lossless Compression of Predicted Floating-Point Values .
 
-
-### System Performance And Profiling
+###System Performance And Profiling
 * [Vmmlib](http://vmml.github.io/vmmlib/) - A templatized C++ vector and matrix math library .
 * [Blaze-lib](https://code.google.com/p/blaze-lib/) - A high performance C++ math library .
 * [Light-matrix](https://github.com/lindahua/light-matrix/) - A Light-weight and Fast Template Matrix Library .
@@ -230,15 +196,11 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Fmath](https://github.com/herumi/fmath/) - Fast log and exp functions for x86/x64 SSE http://homepage1.nifty.com/herumi/soft/fmath.html .
 * [Mie](https://github.com/herumi/mie/) - Fast string library with SSE4.2 .
 * [Libsimdpp](https://github.com/p12tic/libsimdpp/) - Header-only zero-overhead C++ wrapper for SIMD intrinsics of multiple instruction sets .
-* [SEQAN](http://www.seqan.de/) - An open source C++ library of efficient algorithms and data structures for the analysis of sequences with the focus on biological data .
-* [Fastsocket](https://github.com/fastos/fastsocket/) -  A highly scalable socket and its underlying networking implementation of Linux kernel .
 * [Smart](https://github.com/yandex/smart/) - SMT-aware Real-time scheduler for Linux from Yandex.
 * [Simple Binary Encoding](http://real-logic.github.io/simple-binary-encoding/) - Serialization with ultra low latency .
-* [Libdivide](http://libdivide.com/) - An open source library for optimizing integer division .
 * [Farmhash](https://code.google.com/p/farmhash/) - FarmHash is a successor to CityHash, and includes many of the same tricks and techniques, several of them taken from Austin Appleby’s MurmurHash .
 * [Proxygen](https://github.com/facebook/proxygen/) - A collection of C++ HTTP libraries including an easy to use HTTP server .
 * [Yamail](https://github.com/yandex/yamail/) - YMail General Purpose Library .
-* [mTCP](http://shader.kaist.edu/mtcp/) - A Highly Scalable User-level TCP Stack for Multicore Systems .
 * [WDT](https://github.com/facebook/wdt/) - Warp speed Data Transfer (WDT) is an embeddedable library (and command line tool) aiming to transfer data between 2 systems as fast as possible over multiple TCP paths .
 * [UNetStack](https://github.com/bioothod/unetstack/) - Userspace TCP/IP stack .
 * [CamIO](http://www.cl.cam.ac.uk/research/srg/netos/camsas/camio/) - Userspace IO abstraction .
@@ -255,15 +217,21 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Brendan D. Gregg](http://www.brendangregg.com/) - Blog of Brendan D. Gregg .
 * [Course-CMU 18-645](http://users.ece.cmu.edu/~pueschel/teaching/18-645-CMU-spring08/course.html/) - How to Write Fast Code .
 * [ParallelismBook](https://github.com/fengChenHPC/parallelismBook/) - A book about parallel computing & code optimization .
-* [Blackhole](https://github.com/3Hren/blackhole/) - Yet another logging library. http://blackhole-logger.herokuapp.com .
-* [Handystats](https://github.com/shindo/handystats/) - C++ library for collecting user-defined in-process runtime statistics with low overhead .
 
-### Search Engine and Information Retrieval
+
+###Search Engine and Information Retrieval
+* [Vespa](https://github.com/vespa-engine/vespa) - Production ready search engine to support web-scale data .
 * [SF1R](http://github.com/izenecloud/sf1r-lite) - A distributed massive data engine for enterprise/vertical search written in C++ .
+* [BitFunnel](https://github.com/BitFunnel/BitFunnel) - Signature file based search engine from Bing .
+* [Trinity](https://github.com/phaistos-networks/Trinity/) -  Trinity IR toolkit .
+* [IResearch](https://github.com/iresearch-toolkit/iresearch/) -  IR toolkit to be used for ArangoDB .
 * [Partitioned_elias_fano](https://github.com/ot/partitioned_elias_fano/) - Code used for the experiments in the paper "Partitioned Elias-Fano Indexes" .
+* [Clustered_Partitioned_elias_fano](https://github.com/jermp/clustered_elias_fano_indexes/) - Code used for paper Clustered Elias-Fano Indexes" .
 * [Data Structures for Inverted Indexes](https://github.com/ot/ds2i/) - Optimal Space-Time Tradeoffs for Inverted Indexes .
 * [Surf](https://github.com/simongog/surf/) - SUccinct Retrieval Framework .
 * [FastPFor](https://github.com/lemire/FastPFor/) - Fast integer compression .
+* [Indexing](https://github.com/josephnoir/indexing/) - Experimenting with indexing on GPUs .
+* [Genie](https://github.com/SeSaMe-NUS/genie/) -  Generic Inverted Index on GPU .
 * [Simdcomp](https://github.com/lemire/simdcomp/) - A simple C library for compressing lists of integers .
 * [SIMDCompressionAndIntersection](https://github.com/lemire/SIMDCompressionAndIntersection/) - A C++ library to compress and intersect sorted lists of integers using SIMD instructions .
 * [TurboPFor](https://github.com/powturbo/TurboPFor/) - Fastest Integer Compression .
@@ -275,54 +243,11 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Dualsorted](https://github.com/yingfeng/dualsorted/) - Dual sorted inverted index based on Wavelet Tree .
 * [Treap](https://github.com/yingfeng/treap/) - Faster and Smaller Inverted Indices with Treaps .
 * [Gigablast](https://github.com/gigablast/open-source-search-engine/) - A distributed open source search engine and spider written in C/C++ for Linux .
-* [Libface](https://github.com/duckduckgo/cpp-libface/) - Fastest auto-complete in the east .
 * [SIMD-Based-Posting-lists](https://github.com/maximecaron/SIMD-Based-Posting-lists/) - Implementation of Alexander A. Stepanov inverted Index Compression algorithms .
 * [Groonga](http://groonga.org/) - Open-source fulltext search engine and column store .
-* [Pastec](https://github.com/Visu4link/pastec/) - An open source index and search engine for image recognition .
-* [Enterprise-search](https://github.com/searchdaimon/enterprise-search/) - An open source search engine for corporate data and websites. http://www.searchdaimon.com/ .
-* [Verticut](https://github.com/EasonLiao/verticut/) - Image search engine on Infiniband .
 * [Atire](http://atire.org/) - A search engine built using the most effective recent research techniques discovered by Information Retrieval researchers around the world .
 * [Mg4j](http://mg4j.di.unimi.it/) - Academic search engine with succinct design(say quasi-succinct indices) .
 * [Argos](https://github.com/windoze/Argos/) -  A structural data search engine .
-
-
-### Large Scale Machine Learning
-* [LASER](http://github.com/izenecloud/laser/) - A Scalable Response Prediction Platform For Online Advertising .
-* [Parameter Server](https://github.com/mli/parameter_server/) - A distributed machine learning framework. http://parameterserver.org .
-* [Petuum](http://petuum.github.io/) - A distributed machine learning framework implementing parameter server model .
-* [Paracel](http://paracel.io/) - Parameter server by Douban Inc .
-* [H2O](http://0xdata.com/h2o/) - Fastest in-memory platform for machine learning and predictive analytics on big data .
-* [Oryx](https://github.com/cloudera/oryx/) - Simple real-time large-scale machine learning infrastructure implementing Lambda Architecture .
-* [Admm_Allreduce](https://github.com/BaiGang/admm_allreduce/) - ADMM optimizer on Apache Hadoop with allReduce. .
-* [Hivemall](https://github.com/myui/hivemall/) - Scalable machine learning library for Hive/Hadoop .
-* [Ml-ease](https://github.com/linkedin/ml-ease/) - ADMM based large scale logistic regression .
-* [douban_pGBRT](https://github.com/ryaninhust/douban_pGBRT/) - Parallel GBRT from Douban Inc .
-* [Parlearn](https://github.com/stephentu/parlearn/) - Parallel SGD implementation .
-* [Xgboost](https://github.com/tqchen/xgboost/) - eXtreme Gradient Boosting (Tree) Library .
-* [AcroMUSASHI Stream-ML](https://github.com/acromusashi/acromusashi-stream-ml/) - AcroMUSASHI Stream-ML - Machine Learning Library .
-* [DIMSUM](https://blog.twitter.com/2014/all-pairs-similarity-via-dimsum/) - All-pairs similarity via DIMSUM .
-* [StreamSVM](http://www.r.dl.itc.u-tokyo.ac.jp/~masin/streamsvm.html/) - StreamSVM is the fastest implementation to learn linear SVM with large dataset that cannot fit in memory in your computer .
-* [Distributed-liblinear](http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/distributed-liblinear/) - Libraries for Large-scale Linear Classification on Distributed Environments .
-* [SparkADMM](https://github.com/jackdreilly/SparkADMM/) - ADMM implementation on Spark Cluster .
-* [NOMAD](https://sites.google.com/site/hyokunyun/software/) - Non-locking, stOchastic Multi-machine algorithm for Asynchronous and Decentralized matrix completion .
-* [Stream-ml](https://github.com/ddutta/stream-ml/) - Streaming SGD inspired by http://blog.smola.org/post/977927287/parallel-stochastic-gradient-descent .
-* [LIBPMF](http://www.cs.utexas.edu/~rofuyu/libpmf/) - A Library for Large-scale Parallel Matrix Factorization .
-* [LIBMF](http://www.csie.ntu.edu.tw/~cjlin/libmf/) -  A Matrix-factorization Library for Recommender Systems .
-* [KnittingBoar](https://github.com/jpatanooga/KnittingBoar/) - Parallel Iterative Algorithm (SGD) on Hadoop's YARN framework .
-* [Trident-ml](https://github.com/pmerienne/trident-ml/) - Trident-ML : A realtime online machine learning library .
-* [Mlpack](http://mlpack.org/) - A scalable c++ machine learning library .
-* [LASSO](https://github.com/wangkuiyi/lasso/) - A parallel regression model learning system based on MRML.
-* [Jubatus](http://jubat.us/) - Distributed Online Machine Learning Framework .
-* [Vowpal_Wabbit](https://github.com/JohnLangford/vowpal_wabbit/) - A fast online learning algorithm http://hunch.net/~vw/ .
-* [Taskgraph](https://github.com/taskgraph/taskgraph/) -  A fault tolerant, distributed task driven framework written in Go.
-* [DeepDist](http://deepdist.com/) - Lightning-Fast Deep Learning on Spark via parallel stochastic gradient updates(compared with MLLib) .
-* [DMLC](https://github.com/dmlc/) - Distributed (Deep) Machine Learning Common .
-* [MXNet](https://github.com/dmlc/mxnet/) - Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler .
-* [DMTK](http://www.dmtk.io/) - Distributed Machine Learning Toolkit(LightLDA) .
-* [SINGA](http://singa.incubator.apache.org/index.html/) - A General Distributed Deep Learning Platform .
-* [BIDMach](https://github.com/BIDData/BIDMach/) -  CPU and GPU-accelerated Machine Learning Library in Scala .
-* [Spark-Multiboost](https://github.com/BaiGang/spark_multiboost/) -   An implementation of the multi-class/multi-label classifier, of which the training is carried out using AdaBoost.MH on Apache Spark .
-* [Veles](https://github.com/Samsung/veles/) - Distributed platform for rapid Deep learning application development by Samsung.
-* [Chainer](https://github.com/pfnet/chainer/) -  A flexible framework of neural networks for deep learning http://chainer.org by PFINetwork.
-* [CNTK](https://github.com/Microsoft/CNTK/) - Microsoft deep learning framework .
-* [SparkNet](https://github.com/amplab/SparkNet/) -  Distributed Neural Networks for Spark .
+* [MFRetrieval](https://github.com/Hui-Li/MFRetrieval/) -  Tools for maximum inner product retrieval in recommender systems .
+* [Faiss](https://github.com/facebookresearch/faiss/) -  A library for efficient similarity search and clustering of dense vectors .
+* [Lopq](https://github.com/yahoo/lopq/) -  Training of Locally Optimized Product Quantization (LOPQ) models for approximate nearest neighbor search of high dimensional data in Python and Spark .
