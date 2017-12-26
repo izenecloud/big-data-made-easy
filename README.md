@@ -15,7 +15,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 - [Search Engine and Information Retrieval](#search-engine-and-information-retrieval)
 
 
-###Storage Design and Data Structures
+### Storage Design and Data Structures
 * [Db-readings](https://github.com/rxin/db-readings/) - Readings in Databases .
 * [Bitvector](https://github.com/nicola-gigante/bitvector/) - A C++ container-like data structure for storing a vector of bits with fast appending on both sides and fast insertion in the middle, all in succinct space .
 * [BitSliceIndex](https://github.com/lemire/BitSliceIndex/) - Experiments on bit-slice indexing .
@@ -95,7 +95,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 
 
 
-###Distributed Infrastructure for Cloud---Database and Storage
+### Distributed Infrastructure for Cloud---Database and Storage
 * [Cockroach](https://github.com/cockroachdb/cockroach/) - A Scalable, Geo-Replicated, Transactional Datastore .
 * [TiDB](https://github.com/pingcap/tidb/) - Distributed NewSQL database compatible with MySQL protocol  .
 * [ElastiCell](https://github.com/deepfabric/elasticell) - Cloud native key-value store with strong consistency and reliability .
@@ -127,7 +127,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [URingPaxos](https://github.com/sambenz/URingPaxos/) - High throughput atomic multicast protocol .
 * [Course-CS6452](http://www.cs.cornell.edu/courses/cs6452/2012sp/lectures.php/) - Datacenter Networks and Services .
 
-###Distributed Infrastructure for Cloud---Application
+### Distributed Infrastructure for Cloud---Application
 * [Pinpoint](https://github.com/naver/pinpoint/) - Non-intrusive Dapper-like APM solution .
 * [CAT](https://github.com/dianping/cat/) - APM solution at Dianping Inc .
 * [Brave](https://github.com/openzipkin/brave/) - Java version of OpenZipkin .
@@ -139,7 +139,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [DPVS](https://github.com/iqiyi/dpvs/) -  High performance Layer-4 load balancer based on DPDK .
 
 
-###Distributed Infrastructure for Cloud---A(AI)B(BigData)C(Cloud)
+### Distributed Infrastructure for Cloud---A(AI)B(BigData)C(Cloud)
 * [Galaxy](https://github.com/baidu/galaxy/) - Naive scheduler for Baidu search cluster .
 * [Cook](https://github.com/twosigma/Cook/) -  Fair job scheduler on Mesos for batch workloads and Spark .
 * [Kube-arbitrator](https://github.com/kubernetes-incubator/kube-arbitrator/) - Cluster colocation scheduler for Kubernetes .
@@ -161,7 +161,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Jubatus](http://jubat.us/) - Distributed Online Machine Learning Framework .
 
 
-###Concurrency
+### Concurrency
 * [Concurrent Queue](https://github.com/cameron314/concurrentqueue/) - A fast multiple-producer, multi-consumer lock-free concurrent queue for C++11 .
 * [CAF](http://actor-framework.org/) - An Open Source Implementation of the Actor Model in C++ .
 * [TAMER](https://github.com/kohler/tamer/) - C++ extensions for readable event-driven programming .
@@ -186,7 +186,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [Article-TM](http://kukuruku.co/hub/cpp/transactional-memory-history-and-development/) - Transactional Memory: History and Development .
 
 
-###System Performance And Profiling
+### System Performance And Profiling
 * [Vmmlib](http://vmml.github.io/vmmlib/) - A templatized C++ vector and matrix math library .
 * [Blaze-lib](https://code.google.com/p/blaze-lib/) - A high performance C++ math library .
 * [Light-matrix](https://github.com/lindahua/light-matrix/) - A Light-weight and Fast Template Matrix Library .
@@ -219,7 +219,7 @@ A list of frameworks, libraries, resources, and shiny things. Inspired by awesom
 * [ParallelismBook](https://github.com/fengChenHPC/parallelismBook/) - A book about parallel computing & code optimization .
 
 
-###Search Engine and Information Retrieval
+### Search Engine and Information Retrieval
 * [Vespa](https://github.com/vespa-engine/vespa) - Production ready search engine to support web-scale data .
 * [SF1R](http://github.com/izenecloud/sf1r-lite) - A distributed massive data engine for enterprise/vertical search written in C++ .
 * [BitFunnel](https://github.com/BitFunnel/BitFunnel) - Signature file based search engine from Bing .
